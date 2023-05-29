@@ -1,0 +1,4 @@
+D:\Project_Visual\git_kinko\WebDetail\SCF.Model\bin\Debug\SCF.Model.dll
+D:\Project_Visual\git_kinko\WebDetail\SCF.Model\bin\Debug\SCF.Model.pdb
+D:\Project_Visual\git_kinko\WebDetail\SCF.Model\obj\Debug\SCF.Model.dll
+D:\Project_Visual\git_kinko\WebDetail\SCF.Model\obj\Debug\SCF.Model.pdb

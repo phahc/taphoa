@@ -1,0 +1,81 @@
+﻿@model Home.HomeModel.HomeInfoModel
+@using MSys.WebApp;
+
+@{
+    var service = new MSys.DataAccessLayer.CategoriesDal();
+    var pService = new MSys.DataAccessLayer.ProductsDal();
+    var categoriesLst = service.GetCategoriesInfo(0);
+    var productLst = Model.ProductInfo;
+}
+
+<div class="category-tab">
+    <!--category-tab-->
+    <div class="col-sm-12">
+        <ul class="nav nav-tabs">
+        @for (int i = 0; i < categoriesLst.Count; i++)
+        {
+            var categories = categoriesLst[i];
+            if (i == 0)
+            {
+                <li class="active"><a href="#tab-@categories.id" data-toggle="tab">@categories.name</a></li>
+            }
+            else
+            {
+                <li><a href="#tab-@categories.id" data-toggle="tab">@categories.name</a></li>
+            }
+        }
+        </ul>
+    </div>
+    <div class="tab-content">
+        @for (int i = 0; i < categoriesLst.Count; i++)
+        {
+            var categories = categoriesLst[i];
+            productLst = pService.GetProductsInfoByCategoriesId(categories.id);
+            int index = 0;
+            if(i == 0)
+            { 
+                <div class="tab-pane fade active in" id="tab-@categories.id">
+                    @foreach(var pro in productLst)
+                    {
+                        <div class="col-sm-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                        <img src="@pro.image_url" alt="" />
+                                        <h2>@pro.price</h2>
+                                        <p>@pro.product_name</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        index++;
+                    }
+                </div>
+            }
+            else
+            {
+                <div class="tab-pane fade" id="tab-@categories.id">
+                    @foreach (var pro in productLst)
+                    {
+                        <div class="col-sm-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                        <img src="@pro.image_url" alt="" />
+                                        <h2>@pro.price</h2>
+                                        <p>@pro.product_name</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        index++;
+                    }
+                </div>
+            }
+        }
+    </div>
+</div><!--/category-tab-->

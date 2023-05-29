@@ -1,0 +1,102 @@
+F:\Soft\Source\CMN.Interface\bin\Debug\MSys.Interface.dll
+F:\Soft\Source\CMN.Interface\bin\Debug\MSys.Interface.pdb
+F:\Soft\Source\CMN.Interface\bin\Debug\MSys.Model.dll
+F:\Soft\Source\CMN.Interface\bin\Debug\MSys.Model.pdb
+F:\Soft\Source\CMN.Interface\obj\Debug\MSys.Interface.csprojResolveAssemblyReference.cache
+F:\Soft\Source\CMN.Interface\obj\Debug\MSys.Interface.dll
+F:\Soft\Source\CMN.Interface\obj\Debug\MSys.Interface.pdb
+F:\Soft\Source\MSys.Interface\bin\Debug\MSys.Interface.dll
+F:\Soft\Source\MSys.Interface\bin\Debug\MSys.Interface.pdb
+F:\Soft\Source\MSys.Interface\bin\Debug\MSys.Model.dll
+F:\Soft\Source\MSys.Interface\bin\Debug\MSys.Model.pdb
+F:\Soft\Source\MSys.Interface\obj\Debug\MSys.Interface.csprojResolveAssemblyReference.cache
+F:\Soft\Source\MSys.Interface\obj\Debug\MSys.Interface.dll
+F:\Soft\Source\MSys.Interface\obj\Debug\MSys.Interface.pdb
+E:\[Work]\Private\spMarket\MSys.Interface\bin\Debug\MSys.Interface.dll
+E:\[Work]\Private\spMarket\MSys.Interface\bin\Debug\MSys.Interface.pdb
+E:\[Work]\Private\spMarket\MSys.Interface\bin\Debug\MSys.Model.dll
+E:\[Work]\Private\spMarket\MSys.Interface\bin\Debug\MSys.Model.pdb
+E:\[Work]\Private\spMarket\MSys.Interface\obj\Debug\MSys.Interface.csprojResolveAssemblyReference.cache
+E:\[Work]\Private\spMarket\MSys.Interface\obj\Debug\MSys.Interface.dll
+E:\[Work]\Private\spMarket\MSys.Interface\obj\Debug\MSys.Interface.pdb
+E:\[Work]\Private\Shop\MSys.Interface\bin\Debug\MSys.Interface.dll
+E:\[Work]\Private\Shop\MSys.Interface\bin\Debug\MSys.Interface.pdb
+E:\[Work]\Private\Shop\MSys.Interface\bin\Debug\MSys.Model.dll
+E:\[Work]\Private\Shop\MSys.Interface\bin\Debug\MSys.Model.pdb
+E:\[Work]\Private\Shop\MSys.Interface\obj\Debug\MSys.Interface.csprojResolveAssemblyReference.cache
+E:\[Work]\Private\Shop\MSys.Interface\obj\Debug\MSys.Interface.dll
+E:\[Work]\Private\Shop\MSys.Interface\obj\Debug\MSys.Interface.pdb
+F:\Soft\shopHanh\Shop\MSys.Interface\bin\Debug\MSys.Interface.dll
+F:\Soft\shopHanh\Shop\MSys.Interface\bin\Debug\MSys.Interface.pdb
+F:\Soft\shopHanh\Shop\MSys.Interface\bin\Debug\MSys.Model.dll
+F:\Soft\shopHanh\Shop\MSys.Interface\bin\Debug\MSys.Model.pdb
+F:\Soft\shopHanh\Shop\MSys.Interface\obj\Debug\MSys.Interface.csprojResolveAssemblyReference.cache
+F:\Soft\shopHanh\Shop\MSys.Interface\obj\Debug\MSys.Interface.dll
+F:\Soft\shopHanh\Shop\MSys.Interface\obj\Debug\MSys.Interface.pdb
+E:\[Work]\Private\TH_HANH\Shop\MSys.Interface\bin\Debug\MSys.Interface.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Interface\bin\Debug\MSys.Interface.pdb
+E:\[Work]\Private\TH_HANH\Shop\MSys.Interface\bin\Debug\MSys.Model.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Interface\bin\Debug\MSys.Model.pdb
+E:\[Work]\Private\TH_HANH\Shop\MSys.Interface\obj\Debug\MSys.Interface.csprojResolveAssemblyReference.cache
+E:\[Work]\Private\TH_HANH\Shop\MSys.Interface\obj\Debug\MSys.Interface.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Interface\obj\Debug\MSys.Interface.pdb
+F:\[Work]\Do an Dieu\Shop\MSys.Interface\bin\Debug\MSys.Interface.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Interface\bin\Debug\MSys.Interface.pdb
+F:\[Work]\Do an Dieu\Shop\MSys.Interface\bin\Debug\MSys.Model.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Interface\bin\Debug\EntityFramework.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Interface\bin\Debug\MSys.Model.pdb
+F:\[Work]\Do an Dieu\Shop\MSys.Interface\bin\Debug\EntityFramework.xml
+F:\[Work]\Do an Dieu\Shop\MSys.Interface\obj\Debug\MSys.Interface.csprojResolveAssemblyReference.cache
+F:\[Work]\Do an Dieu\Shop\MSys.Interface\obj\Debug\MSys.Interface.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Interface\obj\Debug\MSys.Interface.pdb
+F:\Books\Shop\MSys.Interface\bin\Debug\MSys.Interface.dll
+F:\Books\Shop\MSys.Interface\bin\Debug\MSys.Interface.pdb
+F:\Books\Shop\MSys.Interface\bin\Debug\MSys.Model.dll
+F:\Books\Shop\MSys.Interface\bin\Debug\EntityFramework.dll
+F:\Books\Shop\MSys.Interface\bin\Debug\MSys.Model.pdb
+F:\Books\Shop\MSys.Interface\bin\Debug\EntityFramework.xml
+F:\Books\Shop\MSys.Interface\obj\Debug\MSys.Interface.csprojResolveAssemblyReference.cache
+F:\Books\Shop\MSys.Interface\obj\Debug\MSys.Interface.dll
+F:\Books\Shop\MSys.Interface\obj\Debug\MSys.Interface.pdb
+E:\Do an\BooksStore\MSys.Interface\bin\Debug\MSys.Interface.dll
+E:\Do an\BooksStore\MSys.Interface\bin\Debug\MSys.Interface.pdb
+E:\Do an\BooksStore\MSys.Interface\bin\Debug\MSys.Model.dll
+E:\Do an\BooksStore\MSys.Interface\bin\Debug\EntityFramework.dll
+E:\Do an\BooksStore\MSys.Interface\bin\Debug\MSys.Model.pdb
+E:\Do an\BooksStore\MSys.Interface\bin\Debug\EntityFramework.xml
+E:\Do an\BooksStore\MSys.Interface\obj\Debug\MSys.Interface.csprojResolveAssemblyReference.cache
+E:\Do an\BooksStore\MSys.Interface\obj\Debug\MSys.Interface.dll
+E:\Do an\BooksStore\MSys.Interface\obj\Debug\MSys.Interface.pdb
+F:\[Work]\Git_Books\Shop\MSys.Interface\bin\Debug\MSys.Interface.dll
+F:\[Work]\Git_Books\Shop\MSys.Interface\bin\Debug\MSys.Interface.pdb
+F:\[Work]\Git_Books\Shop\MSys.Interface\bin\Debug\MSys.Model.dll
+F:\[Work]\Git_Books\Shop\MSys.Interface\bin\Debug\EntityFramework.dll
+F:\[Work]\Git_Books\Shop\MSys.Interface\bin\Debug\MSys.Model.pdb
+F:\[Work]\Git_Books\Shop\MSys.Interface\bin\Debug\EntityFramework.xml
+F:\[Work]\Git_Books\Shop\MSys.Interface\obj\Debug\MSys.Interface.csprojResolveAssemblyReference.cache
+F:\[Work]\Git_Books\Shop\MSys.Interface\obj\Debug\MSys.Interface.dll
+F:\[Work]\Git_Books\Shop\MSys.Interface\obj\Debug\MSys.Interface.pdb
+I:\[Work]\Git_Books\Shop\MSys.Interface\bin\Debug\MSys.Interface.dll
+I:\[Work]\Git_Books\Shop\MSys.Interface\bin\Debug\MSys.Interface.pdb
+I:\[Work]\Git_Books\Shop\MSys.Interface\bin\Debug\MSys.Model.dll
+I:\[Work]\Git_Books\Shop\MSys.Interface\bin\Debug\EntityFramework.dll
+I:\[Work]\Git_Books\Shop\MSys.Interface\bin\Debug\MSys.Model.pdb
+I:\[Work]\Git_Books\Shop\MSys.Interface\bin\Debug\MSys.Model.dll.config
+I:\[Work]\Git_Books\Shop\MSys.Interface\bin\Debug\EntityFramework.xml
+I:\[Work]\Git_Books\Shop\MSys.Interface\obj\Debug\MSys.Interface.csproj.AssemblyReference.cache
+I:\[Work]\Git_Books\Shop\MSys.Interface\obj\Debug\MSys.Interface.csproj.CoreCompileInputs.cache
+I:\[Work]\Git_Books\Shop\MSys.Interface\obj\Debug\MSys.Interface.csproj.CopyComplete
+I:\[Work]\Git_Books\Shop\MSys.Interface\obj\Debug\MSys.Interface.dll
+I:\[Work]\Git_Books\Shop\MSys.Interface\obj\Debug\MSys.Interface.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Interface\bin\Debug\MSys.Interface.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Interface\bin\Debug\MSys.Interface.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Interface\bin\Debug\MSys.Model.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Interface\bin\Debug\EntityFramework.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Interface\bin\Debug\MSys.Model.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Interface\bin\Debug\MSys.Model.dll.config
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Interface\bin\Debug\EntityFramework.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Interface\obj\Debug\MSys.Interface.csproj.AssemblyReference.cache
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Interface\obj\Debug\MSys.Interface.csproj.CoreCompileInputs.cache
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Interface\obj\Debug\MSys.Interface.csproj.CopyComplete
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Interface\obj\Debug\MSys.Interface.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Interface\obj\Debug\MSys.Interface.pdb

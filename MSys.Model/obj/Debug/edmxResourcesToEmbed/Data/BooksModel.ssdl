@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BooksModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="acc" />
+    </Key>
+    <Property Name="acc" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="pass" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="email" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="link" Type="nvarchar" MaxLength="255" />
+    <Property Name="oder" Type="int" Nullable="false" />
+    <Property Name="parent" Type="nvarchar" MaxLength="255" />
+    <Property Name="icon" Type="nvarchar" MaxLength="255" />
+    <Property Name="type" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Banner">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="img" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="link" Type="nvarchar" MaxLength="255" />
+    <Property Name="oder" Type="int" Nullable="false" />
+    <Property Name="type" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Branch">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="branch1" Type="nvarchar(max)" />
+    <Property Name="branch2" Type="nvarchar(max)" />
+    <Property Name="branch3" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="url" Type="nvarchar" MaxLength="255" />
+    <Property Name="oder" Type="int" Nullable="false" />
+    <Property Name="parent" Type="int" />
+    <Property Name="type" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Comments">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_product" Type="bigint" Nullable="false" />
+    <Property Name="email" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="data" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Contact">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" />
+    <Property Name="email" Type="nvarchar" MaxLength="255" />
+    <Property Name="sdt" Type="nvarchar" MaxLength="255" />
+    <Property Name="data" Type="nvarchar(max)" />
+    <Property Name="date" Type="datetime" Nullable="false" />
+    <Property Name="status" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="userid" />
+    </Key>
+    <Property Name="userid" Type="bigint" Nullable="false" />
+    <Property Name="username" Type="varchar" MaxLength="20" />
+    <Property Name="password" Type="varchar(max)" />
+    <Property Name="fullname" Type="nvarchar" MaxLength="50" />
+    <Property Name="birthday" Type="date" />
+    <Property Name="sex" Type="int" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="address" Type="nvarchar(max)" />
+    <Property Name="phone" Type="varchar" MaxLength="20" />
+    <Property Name="bank_name" Type="nvarchar" MaxLength="50" />
+    <Property Name="bank_serial" Type="varchar" MaxLength="20" />
+    <Property Name="enable_account" Type="int" />
+    <Property Name="update_time" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Debt">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" />
+    <Property Name="customer_id" Type="bigint" />
+    <Property Name="createdate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DebtDetail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" />
+    <Property Name="debt_id" Type="bigint" />
+    <Property Name="title" Type="nvarchar" MaxLength="500" />
+    <Property Name="amount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="type" Type="int" />
+  </EntityType>
+  <EntityType Name="DefaultData">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="value" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Introduction">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="summary" Type="nvarchar(max)" />
+    <Property Name="contents" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="MadeIn">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="tel" Type="varchar" MaxLength="20" />
+    <Property Name="address" Type="nvarchar(max)" />
+    <Property Name="enable" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Menu">
+    <Key>
+      <PropertyRef Name="name" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="link" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="oder" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="News">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="categories" Type="int" Nullable="false" />
+    <Property Name="img_url" Type="nvarchar" MaxLength="255" />
+    <Property Name="date" Type="datetime" Nullable="false" />
+    <Property Name="summary" Type="nvarchar(max)" />
+    <Property Name="contents" Type="nvarchar(max)" />
+    <Property Name="view_count" Type="int" Nullable="false" />
+    <Property Name="oder" Type="int" Nullable="false" />
+    <Property Name="status" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" />
+    <Property Name="address" Type="nvarchar" MaxLength="255" />
+    <Property Name="phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="255" />
+    <Property Name="status" Type="int" />
+    <Property Name="date" Type="datetime" />
+    <Property Name="active" Type="int" />
+    <Property Name="userid" Type="bigint" />
+  </EntityType>
+  <EntityType Name="OrderDetail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_product" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="id_order" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" />
+    <Property Name="quantity" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Posters">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="image_url" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="text" Type="nvarchar" MaxLength="50" />
+    <Property Name="company_name" Type="nvarchar" MaxLength="50" />
+    <Property Name="enable" Type="int" Nullable="false" />
+    <Property Name="position" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="update_time" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="product_id" />
+    </Key>
+    <Property Name="product_id" Type="bigint" Nullable="false" />
+    <Property Name="product_name" Type="nvarchar(max)" />
+    <Property Name="image_url" Type="nvarchar(max)" />
+    <Property Name="price_import" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="price_export" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="price_percent" Type="int" />
+    <Property Name="price" Type="decimal" Precision="36" Scale="6" StoreGeneratedPattern="Computed" />
+    <Property Name="quantity" Type="int" StoreGeneratedPattern="Computed" />
+    <Property Name="quantity_import" Type="int" />
+    <Property Name="quantity_export" Type="int" />
+    <Property Name="decriptions" Type="text" />
+    <Property Name="madein" Type="int" />
+    <Property Name="userid" Type="bigint" />
+    <Property Name="expiry_date" Type="datetime" />
+    <Property Name="promotion" Type="int" />
+    <Property Name="promotion_startdate" Type="datetime" />
+    <Property Name="promotion_enddate" Type="datetime" />
+    <Property Name="home_show" Type="int" />
+    <Property Name="product_order" Type="int" />
+    <Property Name="views" Type="bigint" />
+    <Property Name="enable" Type="int" />
+    <Property Name="categories" Type="int" />
+    <Property Name="wholesale_price" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="create_date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SlideShow">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="img" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="link" Type="nvarchar" MaxLength="255" />
+    <Property Name="oder" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SpOnline">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" />
+    <Property Name="link" Type="nvarchar" MaxLength="255" />
+    <Property Name="type" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="System_config">
+    <Key>
+      <PropertyRef Name="key_name" />
+    </Key>
+    <Property Name="key_name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="value1" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="value2" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Topics">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="enable" Type="int" Nullable="false" />
+    <Property Name="showmain" Type="int" />
+    <Property Name="oder" Type="int" />
+  </EntityType>
+  <Association Name="FK__news_categories__5629CD9C">
+    <End Role="Categories" Type="Self.Categories" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="News" Type="Self.News" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="News">
+        <PropertyRef Name="categories" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_id_product">
+    <End Role="Products" Type="Self.Products" Multiplicity="1" />
+    <End Role="Comments" Type="Self.Comments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="product_id" />
+      </Principal>
+      <Dependent Role="Comments">
+        <PropertyRef Name="id_product" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_Comments">
+    <End Role="Products" Type="Self.Products" Multiplicity="1" />
+    <End Role="Products1" Type="Self.Products" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="product_id" />
+      </Principal>
+      <Dependent Role="Products1">
+        <PropertyRef Name="product_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="GetHoatDong" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="page" Type="int" Mode="In" />
+    <Parameter Name="top" Type="int" Mode="In" />
+    <Parameter Name="danhmuc" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="GetHoatDongMoi" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="top" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetHoTroTrucTuyen" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="top" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetProductHot" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="top" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetProductNew" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="top" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetSanPham" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="page" Type="int" Mode="In" />
+    <Parameter Name="top" Type="int" Mode="In" />
+    <Parameter Name="danhmuc" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="GetSanphamHot" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="top" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetSanPhamMoi" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="top" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetTinTuc" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="page" Type="int" Mode="In" />
+    <Parameter Name="top" Type="int" Mode="In" />
+    <Parameter Name="danhmuc" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="GetTinTucMoi" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="top" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sprocCategoriesSingleItem" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MemID" Type="bigint" Mode="In" />
+    <Parameter Name="name" Type="nvarchar" Mode="In" />
+    <Parameter Name="url" Type="nvarchar" Mode="In" />
+    <Parameter Name="oder" Type="int" Mode="In" />
+    <Parameter Name="parent" Type="int" Mode="In" />
+    <Parameter Name="type" Type="int" Mode="In" />
+    <Parameter Name="MemIDOUT" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="sprocProductSingleItem" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MemID" Type="bigint" Mode="In" />
+    <Parameter Name="product_id" Type="bigint" Mode="In" />
+    <Parameter Name="product_name" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="categories" Type="int" Mode="In" />
+    <Parameter Name="price_import" Type="decimal" Mode="In" />
+    <Parameter Name="price_export" Type="decimal" Mode="In" />
+    <Parameter Name="wholesale_price" Type="decimal" Mode="In" />
+    <Parameter Name="price_percent" Type="int" Mode="In" />
+    <Parameter Name="quantity_import" Type="int" Mode="In" />
+    <Parameter Name="quantity_export" Type="int" Mode="In" />
+    <Parameter Name="MemIDOUT" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="TimSanPham" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="page" Type="int" Mode="In" />
+    <Parameter Name="top" Type="int" Mode="In" />
+    <Parameter Name="id" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="TimTinTuc" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="page" Type="int" Mode="In" />
+    <Parameter Name="top" Type="int" Mode="In" />
+    <Parameter Name="id" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="BooksModelStoreContainer">
+    <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Banner" EntityType="Self.Banner" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Branch" EntityType="Self.Branch" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Categories" EntityType="Self.Categories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Comments" EntityType="Self.Comments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contact" EntityType="Self.Contact" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Customers" EntityType="Self.Customers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Debt" EntityType="Self.Debt" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DebtDetail" EntityType="Self.DebtDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DefaultData" EntityType="Self.DefaultData" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Introduction" EntityType="Self.Introduction" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MadeIn" EntityType="Self.MadeIn" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Menu" EntityType="Self.Menu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="News" EntityType="Self.News" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Order" EntityType="Self.Order" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OrderDetail" EntityType="Self.OrderDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Posters" EntityType="Self.Posters" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Products" EntityType="Self.Products" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SlideShow" EntityType="Self.SlideShow" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SpOnline" EntityType="Self.SpOnline" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="System_config" EntityType="Self.System_config" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Topics" EntityType="Self.Topics" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__news_categories__5629CD9C" Association="Self.FK__news_categories__5629CD9C">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="News" EntitySet="News" />
+    </AssociationSet>
+    <AssociationSet Name="FK_id_product" Association="Self.FK_id_product">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Comments" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_Comments" Association="Self.FK_Products_Comments">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Products1" EntitySet="Products" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

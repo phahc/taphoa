@@ -1,0 +1,88 @@
+F:\Soft\Source\SCF.Model\bin\Debug\MSys.Model.dll
+F:\Soft\Source\SCF.Model\bin\Debug\MSys.Model.pdb
+F:\Soft\Source\SCF.Model\obj\Debug\MSys.Model.dll
+F:\Soft\Source\SCF.Model\obj\Debug\MSys.Model.pdb
+F:\Soft\Source\MSys.Model\bin\Debug\MSys.Model.dll
+F:\Soft\Source\MSys.Model\bin\Debug\MSys.Model.pdb
+F:\Soft\Source\MSys.Model\obj\Debug\MSys.Model.csprojResolveAssemblyReference.cache
+F:\Soft\Source\MSys.Model\obj\Debug\MSys.Model.dll
+F:\Soft\Source\MSys.Model\obj\Debug\MSys.Model.pdb
+E:\[Work]\Private\spMarket\MSys.Model\bin\Debug\MSys.Model.dll
+E:\[Work]\Private\spMarket\MSys.Model\bin\Debug\MSys.Model.pdb
+E:\[Work]\Private\spMarket\MSys.Model\obj\Debug\MSys.Model.dll
+E:\[Work]\Private\spMarket\MSys.Model\obj\Debug\MSys.Model.pdb
+E:\[Work]\Private\Shop\MSys.Model\bin\Debug\MSys.Model.dll
+E:\[Work]\Private\Shop\MSys.Model\bin\Debug\MSys.Model.pdb
+E:\[Work]\Private\Shop\MSys.Model\obj\Debug\MSys.Model.dll
+E:\[Work]\Private\Shop\MSys.Model\obj\Debug\MSys.Model.pdb
+F:\Soft\shopHanh\Shop\MSys.Model\bin\Debug\MSys.Model.dll
+F:\Soft\shopHanh\Shop\MSys.Model\bin\Debug\MSys.Model.pdb
+F:\Soft\shopHanh\Shop\MSys.Model\obj\Debug\MSys.Model.csprojResolveAssemblyReference.cache
+F:\Soft\shopHanh\Shop\MSys.Model\obj\Debug\MSys.Model.dll
+F:\Soft\shopHanh\Shop\MSys.Model\obj\Debug\MSys.Model.pdb
+E:\[Work]\Private\TH_HANH\Shop\MSys.Model\bin\Debug\MSys.Model.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Model\bin\Debug\MSys.Model.pdb
+E:\[Work]\Private\TH_HANH\Shop\MSys.Model\obj\Debug\MSys.Model.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Model\obj\Debug\MSys.Model.pdb
+E:\[Work]\Private\TH_HANH\Shop\MSys.Model\obj\Debug\MSys.Model.csprojResolveAssemblyReference.cache
+F:\[Work]\Do an Dieu\Shop\MSys.Model\bin\Debug\MSys.Model.dll.config
+F:\[Work]\Do an Dieu\Shop\MSys.Model\bin\Debug\MSys.Model.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Model\bin\Debug\MSys.Model.pdb
+F:\[Work]\Do an Dieu\Shop\MSys.Model\bin\Debug\EntityFramework.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Model\bin\Debug\EntityFramework.SqlServer.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Model\bin\Debug\EntityFramework.xml
+F:\[Work]\Do an Dieu\Shop\MSys.Model\bin\Debug\EntityFramework.SqlServer.xml
+F:\[Work]\Do an Dieu\Shop\MSys.Model\obj\Debug\MSys.Model.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Model\obj\Debug\MSys.Model.pdb
+F:\[Work]\Do an Dieu\Shop\MSys.Model\obj\Debug\MSys.Model.csprojResolveAssemblyReference.cache
+F:\Books\Shop\MSys.Model\bin\Debug\MSys.Model.dll.config
+F:\Books\Shop\MSys.Model\bin\Debug\MSys.Model.dll
+F:\Books\Shop\MSys.Model\bin\Debug\MSys.Model.pdb
+F:\Books\Shop\MSys.Model\bin\Debug\EntityFramework.dll
+F:\Books\Shop\MSys.Model\bin\Debug\EntityFramework.SqlServer.dll
+F:\Books\Shop\MSys.Model\bin\Debug\EntityFramework.xml
+F:\Books\Shop\MSys.Model\bin\Debug\EntityFramework.SqlServer.xml
+F:\Books\Shop\MSys.Model\obj\Debug\MSys.Model.dll
+F:\Books\Shop\MSys.Model\obj\Debug\MSys.Model.pdb
+E:\Do an\BooksStore\MSys.Model\bin\Debug\MSys.Model.dll.config
+E:\Do an\BooksStore\MSys.Model\bin\Debug\MSys.Model.dll
+E:\Do an\BooksStore\MSys.Model\bin\Debug\MSys.Model.pdb
+E:\Do an\BooksStore\MSys.Model\bin\Debug\EntityFramework.dll
+E:\Do an\BooksStore\MSys.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\Do an\BooksStore\MSys.Model\bin\Debug\EntityFramework.xml
+E:\Do an\BooksStore\MSys.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\Do an\BooksStore\MSys.Model\obj\Debug\MSys.Model.dll
+E:\Do an\BooksStore\MSys.Model\obj\Debug\MSys.Model.pdb
+F:\[Work]\Git_Books\Shop\MSys.Model\bin\Debug\MSys.Model.dll.config
+F:\[Work]\Git_Books\Shop\MSys.Model\bin\Debug\MSys.Model.dll
+F:\[Work]\Git_Books\Shop\MSys.Model\bin\Debug\MSys.Model.pdb
+F:\[Work]\Git_Books\Shop\MSys.Model\bin\Debug\EntityFramework.dll
+F:\[Work]\Git_Books\Shop\MSys.Model\bin\Debug\EntityFramework.SqlServer.dll
+F:\[Work]\Git_Books\Shop\MSys.Model\bin\Debug\EntityFramework.xml
+F:\[Work]\Git_Books\Shop\MSys.Model\bin\Debug\EntityFramework.SqlServer.xml
+F:\[Work]\Git_Books\Shop\MSys.Model\obj\Debug\MSys.Model.csprojResolveAssemblyReference.cache
+F:\[Work]\Git_Books\Shop\MSys.Model\obj\Debug\MSys.Model.dll
+F:\[Work]\Git_Books\Shop\MSys.Model\obj\Debug\MSys.Model.pdb
+I:\[Work]\Git_Books\Shop\MSys.Model\bin\Debug\MSys.Model.dll.config
+I:\[Work]\Git_Books\Shop\MSys.Model\bin\Debug\MSys.Model.dll
+I:\[Work]\Git_Books\Shop\MSys.Model\bin\Debug\MSys.Model.pdb
+I:\[Work]\Git_Books\Shop\MSys.Model\bin\Debug\EntityFramework.dll
+I:\[Work]\Git_Books\Shop\MSys.Model\bin\Debug\EntityFramework.SqlServer.dll
+I:\[Work]\Git_Books\Shop\MSys.Model\bin\Debug\EntityFramework.xml
+I:\[Work]\Git_Books\Shop\MSys.Model\bin\Debug\EntityFramework.SqlServer.xml
+I:\[Work]\Git_Books\Shop\MSys.Model\obj\Debug\MSys.Model.csproj.CoreCompileInputs.cache
+I:\[Work]\Git_Books\Shop\MSys.Model\obj\Debug\MSys.Model.csproj.CopyComplete
+I:\[Work]\Git_Books\Shop\MSys.Model\obj\Debug\MSys.Model.dll
+I:\[Work]\Git_Books\Shop\MSys.Model\obj\Debug\MSys.Model.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Model\bin\Debug\MSys.Model.dll.config
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Model\bin\Debug\MSys.Model.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Model\bin\Debug\MSys.Model.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Model\bin\Debug\EntityFramework.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Model\bin\Debug\EntityFramework.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Model\obj\Debug\MSys.Model.csproj.AssemblyReference.cache
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Model\obj\Debug\MSys.Model.csproj.CoreCompileInputs.cache
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Model\obj\Debug\MSys.Model.csproj.CopyComplete
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Model\obj\Debug\MSys.Model.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Model\obj\Debug\MSys.Model.pdb

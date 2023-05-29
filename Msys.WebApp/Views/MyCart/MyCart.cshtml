@@ -1,0 +1,125 @@
+﻿@model Msys.WebApp.Models.MyCartInfo
+
+@{
+    ViewBag.Title = "MyCart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    decimal totalMoney = 0;
+}
+@section Script {
+    @*自画面用*@
+    <script src="@Url.Content("~/js/MyCart/MyCart.js")" type="text/javascript"></script>
+}
+<section id="cart_items">
+    <div class="container">
+        <div class="breadcrumbs">
+            <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li class="active">Giỏ hàng</li>
+            </ol>
+        </div>
+        <div class="table-responsive cart_info">
+            <table class="table table-condensed">
+                <thead>
+                    <tr class="cart_menu">
+                        <td class="image">Sản phẩm</td>
+                        <td class="description"></td>
+                        <td class="price">Giá</td>
+                        <td class="quantity">Số lượng</td>
+                        <td class="total">Tổng tiền</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                @using (Html.BeginRouteForm("MyCart", FormMethod.Post, new { id = "mycart" }))
+                {
+                    @Html.AntiForgeryToken()
+                    for (int i = 0; i < Model.DetailLst.Count; i++)
+                    {
+                        totalMoney = totalMoney + (Model.DetailLst[i].price.Value * Model.DetailLst[i].quantity);
+                        @Html.HiddenFor(model => Model.DetailLst[i].id_order)
+                        <tr>
+                            <td class="cart_product">
+                                <a href=""><img src="images/cart/one.png" alt=""></a>
+                            </td>
+                            <td class="cart_description">
+                                <h4><a href="">@Model.DetailLst[i].product_name</a></h4>
+                                @Html.HiddenFor(model => Model.DetailLst[i].product_name)
+                                <p>Web ID: @Model.DetailLst[i].id_product</p>
+                                @Html.HiddenFor(model => Model.DetailLst[i].id_product)
+                            </td>
+                            <td class="cart_price">
+                                <p>@Model.DetailLst[i].price</p>
+                                @Html.HiddenFor(model => Model.DetailLst[i].price)
+                            </td>
+                            <td class="cart_quantity">
+                                    <div class="cart_quantity_button">
+                                        <button class="cart_quantity_up" type="submit" name="controlval" value="up" id="btnUp-@Model.DetailLst[i].id_product" href=""> + </button>
+                                        @Html.TextBoxFor(model => Model.DetailLst[i].quantity, new { @class = "cart_quantity_input", id="input-"+ @Model.DetailLst[i].id_product })
+                                        <button class="cart_quantity_down" type="submit" name="controlval" value="down" id="btnDown-@Model.DetailLst[i].id_product" href=""> - </button>
+                                    </div>
+                                    
+                            </td>
+                            <td class="cart_total">
+                                <p class="cart_total_price">@(Model.DetailLst[i].price.Value * Model.DetailLst[i].quantity)</p>
+                            </td>
+                            <td class="cart_delete">
+                                <button class="cart_quantity_delete" name="controlval" value="delete-@Model.DetailLst[i].id_product" id="btnDelete-@Model.DetailLst[i].id_product" href=""><i class="fa fa-times"></i></button>
+                            </td>
+                        </tr>
+                    }
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section> <!--/#cart_items-->
+<section id="do_action">
+    <div class="container">
+        <div class="heading">
+            <h3>Thông tin giao hàng</h3>
+            <p>Vui lòng nhập thông tin địa chỉ giao hàng, và xác nhận đơn hàng để hoàn tất đơn hàng của bạn.</p>
+        </div>
+@using (Html.BeginRouteForm("MyCart", FormMethod.Post, new { id = "confirm" }))
+{
+    @Html.AntiForgeryToken()
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="chose_area">
+                    <ul class="user_info">
+                        <li class="single_field zip-field">
+                            <label>Họ tên:</label>
+                            @Html.TextBoxFor(model => model.userNm, new { id = "username" })
+                        </li>
+                        <li class="single_field zip-field">
+                            <label>Địa chỉ:</label>
+                            @Html.TextBoxFor(model => model.userAddress, new { id = "address" })
+                        </li>
+                        <li class="single_field zip-field">
+                            <label>Email:</label>
+                            @Html.TextBoxFor(model => model.userEmail, new { id = "email" })
+                        </li>
+                        <li class="single_field zip-field">
+                            <label>Số điện thoại:</label>
+                            @Html.TextBoxFor(model => model.userPhone, new { id = "phone" })
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="total_area">
+                    <ul>
+                        <li>Tiền trước thuế<span>@totalMoney</span></li>
+                        <li>Thuế (VAT) <span>@ViewBag.tax (%)</span></li>
+                        <li>Phí giao hàng: <span>Miễn phí</span></li>
+                        <li>Thời gian giao hàng: <span>Từ 2 ~ 4 ngày (Trừ ngày lễ)</span></li>
+                        <li>Tổng tiền <span>@(totalMoney - ((totalMoney * Convert.ToDecimal(ViewBag.tax))/100))</span></li>
+                    </ul>
+                </div>
+            </div>
+            @*<button class="btn btn-default update" name="controlval" value="update" href="">Cập nhật</button>*@
+            <button class="btn btn-default check_out" name="controlval" value="confirm" href="">Xác nhận</button>
+        </div>
+}
+    </div>
+</section><!--/#do_action-->
+

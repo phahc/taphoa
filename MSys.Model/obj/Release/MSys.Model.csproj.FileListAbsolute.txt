@@ -1,0 +1,4 @@
+E:\[Work]\Private\TH_HANH\Shop\MSys.Model\bin\Release\MSys.Model.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Model\bin\Release\MSys.Model.pdb
+E:\[Work]\Private\TH_HANH\Shop\MSys.Model\obj\Release\MSys.Model.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Model\obj\Release\MSys.Model.pdb

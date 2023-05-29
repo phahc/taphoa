@@ -1,0 +1,5 @@
+D:\Project_Visual\git_kinko\WebDetail\SCF.Model\bin\Release\SCF.Model.dll
+D:\Project_Visual\git_kinko\WebDetail\SCF.Model\bin\Release\SCF.Model.pdb
+D:\Project_Visual\git_kinko\WebDetail\SCF.Model\obj\Release\SCF.Model.csprojResolveAssemblyReference.cache
+D:\Project_Visual\git_kinko\WebDetail\SCF.Model\obj\Release\SCF.Model.dll
+D:\Project_Visual\git_kinko\WebDetail\SCF.Model\obj\Release\SCF.Model.pdb

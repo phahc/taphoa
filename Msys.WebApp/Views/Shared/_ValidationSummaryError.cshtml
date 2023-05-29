@@ -1,0 +1,26 @@
+﻿@model ModelStateDictionary
+
+@{ 
+    List<ModelState> listModelState = new List<ModelState>();
+    if (!Model.IsValid)
+    {
+        listModelState = Model.Values.ToList().Where(m => m.Errors.Count > 0).ToList();
+    }
+    List<ModelState> listModelStateManual = ViewBag.ModelStateManual;
+    if (listModelStateManual != null && listModelStateManual.Count > 0)
+    {
+        listModelState.AddRange(listModelStateManual.Where(m => m.Errors.Count > 0).ToList());
+    }
+}
+
+@if (listModelState.Count > 0)
+{
+<!--validation-server-error-->
+    foreach (ModelState state in listModelState) {
+        <ul> 
+            @foreach (var serverError in state.Errors) {
+                <li> @serverError.ErrorMessage </li>
+            }
+        </ul>
+    }
+}

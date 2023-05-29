@@ -1,0 +1,128 @@
+﻿@model Home.HomeModel.HomeInfoModel
+@using MSys.WebApp;
+@using MSys.Core;
+
+@{
+//var service = MSys.Core.ServiceLocator.ServiceLocator.Resolve<MSys.BusinessLayer.Order.HomeService>();
+}
+
+<div class="category-tab">
+    <section id="cart_items">
+        <div class="container">
+            <div class="products-view-all">
+                <form class="post-list">
+                    <input type="hidden" value="">
+                </form>
+                <div>
+                    <div class="pagination-container clearfix"><br class="clear"></div>
+                    <div class="pagination-nav"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--category-tab-->
+    @*<div class="tab-order">
+    <div class="col-sm-12">
+        <ul class="nav nav-tabs">
+
+            @for (int i = 0; i < Model.ListOrderNotPayInfo.Count; i++)
+            {
+                var item = Model.ListOrderNotPayInfo[i];
+                if (i == 0)
+                {
+                    <li class="active"><a href="#@item.id" data-toggle="tab">@item.name</a></li>
+                }
+                else
+                {
+                    <li><a href="#@item.id" data-toggle="tab">@item.name</a></li>
+                }
+
+            }
+
+        </ul>
+    </div>
+    </div>*@
+    <div class="tab-order-detail">
+            @*<div class="tab-content">
+                @for (int i = 0; i < Model.ListOrderNotPayInfo.Count; i++)
+                {
+                    var item = Model.ListOrderNotPayInfo[i];
+                    var orderDetail = service.GetOrderDetail(item.id);
+                    <div class="@("tab-pane fade " + ((i == 0) ? "active in" : ""))" id="@item.id">
+                        <section id="cart_items">
+                            <div class="container">
+                                <div class="table-responsive cart_info">
+                                    <table class="table table-condensed">
+                                        <thead>
+                                            <tr class="cart_menu">
+                                                <td class="image">Sản phẩm</td>
+                                                <td class="description"></td>
+                                                <td class="price">Giá</td>
+                                                <td class="quantity">Số lượng</td>
+                                                <td class="total">Thành tiền</td>
+                                                <td></td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var det in orderDetail)
+                                            {
+                                                var totalPrice = Convert.ToInt32(det.quantity) * Convert.ToDecimal(det.price);
+                                                <tr>
+                                                    <td class="cart_product">
+                                                        <a href=""><img src="@det.image_url" alt=""></a>
+                                                    </td>
+                                                    <td class="cart_description">
+                                                        <h4><a href="">@det.product_name</a></h4>
+                                                        <p>Mã hàng: @det.id_product</p>
+                                                    </td>
+                                                    <td class="cart_price">
+                                                        <p>@MSys.Core.Util.DecimalUtil.DecimalToMoney(det.price)</p>
+                                                    </td>
+                                                    <td class="cart_quantity">
+                                                        <div class="cart_quantity_button">
+                                                            <a class="cart_quantity_up" href=""> + </a>
+                                                            <input class="cart_quantity_input" type="text" name="quantity" value="@det.quantity" autocomplete="on" size="2">
+                                                            <a class="cart_quantity_down" href=""> - </a>
+                                                        </div>
+                                                    </td>
+                                                    <td class="cart_total">
+                                                        <p class="cart_total_price">@MSys.Core.Util.DecimalUtil.DecimalToMoney(totalPrice)</p>
+                                                    </td>
+                                                    <td class="cart_delete">
+                                                        <a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </section> <!--/#cart_items-->
+                        <section id="do_action">
+                            <div class="container">
+                                <div class="widget newsletter clearfix">
+                                    <i class="icon-notebook pull-left"></i>
+                                    <h2 class="pull-left"><span>Tổng tiền phải thu: </span>@MSys.Core.Util.DecimalUtil.DecimalToMoney(500000)</h2>
+                                    <h2 class="pull-left"><span> Tiền trả lại khách: </span>@MSys.Core.Util.DecimalUtil.DecimalToMoney(500000)</h2>
+                                    <div class="newsletter-form pull-right">
+                                        <form action="/" method="post">
+                                            <div class="form-group">
+                                                <label for="d" class="hide">Tiền nhận của khách</label>
+                                                <input type="text" name="" value="" class="form-control" id="d" placeholder="Tiền nhận của khách" />
+                                            </div>
+                                            <input type="submit" name="" value="Thanh toán" />
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </section><!--/#do_action-->
+                    </div>
+                }
+            </div>*@
+    </div>
+
+
+
+</div><!--/category-tab-->
+
+

@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BooksModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="acc" />
+    </Key>
+    <Property Name="acc" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="pass" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="link" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="oder" Type="Int32" Nullable="false" />
+    <Property Name="parent" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="icon" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="type" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Banner">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="img" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="link" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="oder" Type="Int32" Nullable="false" />
+    <Property Name="type" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Branch">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="branch1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="branch2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="branch3" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="url" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="oder" Type="Int32" Nullable="false" />
+    <Property Name="parent" Type="Int32" />
+    <Property Name="type" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="News" Relationship="Self.FK__news_categories__5629CD9C" FromRole="Categories" ToRole="News" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_product" Type="Int64" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="data" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_id_product" FromRole="Comments" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Contact">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="sdt" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="data" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="status" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="userid" />
+    </Key>
+    <Property Name="userid" Type="Int64" Nullable="false" />
+    <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="fullname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="birthday" Type="DateTime" Precision="0" />
+    <Property Name="sex" Type="Int32" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="phone" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="bank_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="bank_serial" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="enable_account" Type="Int32" />
+    <Property Name="update_time" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Debt">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" />
+    <Property Name="customer_id" Type="Int64" />
+    <Property Name="createdate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="DebtDetail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" />
+    <Property Name="debt_id" Type="Int64" />
+    <Property Name="title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="amount" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="type" Type="Int32" />
+  </EntityType>
+  <EntityType Name="DefaultData">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="value" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Introduction">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="summary" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="contents" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MadeIn">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="tel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="enable" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Menu">
+    <Key>
+      <PropertyRef Name="name" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="link" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="oder" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="News">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="categories" Type="Int32" Nullable="false" />
+    <Property Name="img_url" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="summary" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="contents" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="view_count" Type="Int32" Nullable="false" />
+    <Property Name="oder" Type="Int32" Nullable="false" />
+    <Property Name="status" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Category" Relationship="Self.FK__news_categories__5629CD9C" FromRole="News" ToRole="Categories" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="address" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="status" Type="Int32" />
+    <Property Name="date" Type="DateTime" Precision="3" />
+    <Property Name="active" Type="Int32" />
+    <Property Name="userid" Type="Int64" />
+  </EntityType>
+  <EntityType Name="OrderDetail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_product" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="id_order" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="quantity" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Poster">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="image_url" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="text" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="company_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="enable" Type="Int32" Nullable="false" />
+    <Property Name="position" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="update_time" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="product_id" />
+    </Key>
+    <Property Name="product_id" Type="Int64" Nullable="false" />
+    <Property Name="product_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="image_url" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="price_import" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="price_export" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="price_percent" Type="Int32" />
+    <Property Name="price" Type="Decimal" Precision="36" Scale="6" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="quantity" Type="Int32" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="quantity_import" Type="Int32" />
+    <Property Name="quantity_export" Type="Int32" />
+    <Property Name="decriptions" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="madein" Type="Int32" />
+    <Property Name="userid" Type="Int64" />
+    <Property Name="expiry_date" Type="DateTime" Precision="3" />
+    <Property Name="promotion" Type="Int32" />
+    <Property Name="promotion_startdate" Type="DateTime" Precision="3" />
+    <Property Name="promotion_enddate" Type="DateTime" Precision="3" />
+    <Property Name="home_show" Type="Int32" />
+    <Property Name="product_order" Type="Int32" />
+    <Property Name="views" Type="Int64" />
+    <Property Name="enable" Type="Int32" />
+    <Property Name="categories" Type="Int32" />
+    <Property Name="wholesale_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="create_date" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Comments" Relationship="Self.FK_id_product" FromRole="Products" ToRole="Comments" />
+    <NavigationProperty Name="Products1" Relationship="Self.FK_Products_Comments" FromRole="Products" ToRole="Products1" />
+    <NavigationProperty Name="Product1" Relationship="Self.FK_Products_Comments" FromRole="Products1" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="SlideShow">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="img" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="link" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="oder" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SpOnline">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="link" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="type" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="System_config">
+    <Key>
+      <PropertyRef Name="key_name" />
+    </Key>
+    <Property Name="key_name" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="value1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="value2" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Topic">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="enable" Type="Int32" Nullable="false" />
+    <Property Name="showmain" Type="Int32" />
+    <Property Name="oder" Type="Int32" />
+  </EntityType>
+  <Association Name="FK__news_categories__5629CD9C">
+    <End Role="Categories" Type="Self.Category" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="News" Type="Self.News" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="News">
+        <PropertyRef Name="categories" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_id_product">
+    <End Role="Products" Type="Self.Product" Multiplicity="1" />
+    <End Role="Comments" Type="Self.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="product_id" />
+      </Principal>
+      <Dependent Role="Comments">
+        <PropertyRef Name="id_product" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_Comments">
+    <End Role="Products" Type="Self.Product" Multiplicity="1" />
+    <End Role="Products1" Type="Self.Product" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="product_id" />
+      </Principal>
+      <Dependent Role="Products1">
+        <PropertyRef Name="product_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BooksEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Accounts" EntityType="Self.Account" />
+    <EntitySet Name="Admins" EntityType="Self.Admin" />
+    <EntitySet Name="Banners" EntityType="Self.Banner" />
+    <EntitySet Name="Branches" EntityType="Self.Branch" />
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Comments" EntityType="Self.Comment" />
+    <EntitySet Name="Contacts" EntityType="Self.Contact" />
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Debts" EntityType="Self.Debt" />
+    <EntitySet Name="DebtDetails" EntityType="Self.DebtDetail" />
+    <EntitySet Name="DefaultDatas" EntityType="Self.DefaultData" />
+    <EntitySet Name="Introductions" EntityType="Self.Introduction" />
+    <EntitySet Name="MadeIns" EntityType="Self.MadeIn" />
+    <EntitySet Name="Menus" EntityType="Self.Menu" />
+    <EntitySet Name="News" EntityType="Self.News" />
+    <EntitySet Name="Orders" EntityType="Self.Order" />
+    <EntitySet Name="OrderDetails" EntityType="Self.OrderDetail" />
+    <EntitySet Name="Posters" EntityType="Self.Poster" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="SlideShows" EntityType="Self.SlideShow" />
+    <EntitySet Name="SpOnlines" EntityType="Self.SpOnline" />
+    <EntitySet Name="System_config" EntityType="Self.System_config" />
+    <EntitySet Name="Topics" EntityType="Self.Topic" />
+    <AssociationSet Name="FK__news_categories__5629CD9C" Association="Self.FK__news_categories__5629CD9C">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="News" EntitySet="News" />
+    </AssociationSet>
+    <AssociationSet Name="FK_id_product" Association="Self.FK_id_product">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Comments" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_Comments" Association="Self.FK_Products_Comments">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Products1" EntitySet="Products" />
+    </AssociationSet>
+    <FunctionImport Name="GetHoatDong">
+      <Parameter Name="page" Mode="In" Type="Int32" />
+      <Parameter Name="top" Mode="In" Type="Int32" />
+      <Parameter Name="danhmuc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetHoatDongMoi">
+      <Parameter Name="top" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetHoTroTrucTuyen">
+      <Parameter Name="top" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetProductHot" ReturnType="Collection(BooksModel.GetProductHot_Result)">
+      <Parameter Name="top" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetProductNew" ReturnType="Collection(BooksModel.GetProductNew_Result)">
+      <Parameter Name="top" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetSanPham">
+      <Parameter Name="page" Mode="In" Type="Int32" />
+      <Parameter Name="top" Mode="In" Type="Int32" />
+      <Parameter Name="danhmuc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetSanphamHot" ReturnType="Collection(BooksModel.GetSanphamHot_Result)">
+      <Parameter Name="top" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetSanPhamMoi">
+      <Parameter Name="top" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetTinTuc">
+      <Parameter Name="page" Mode="In" Type="Int32" />
+      <Parameter Name="top" Mode="In" Type="Int32" />
+      <Parameter Name="danhmuc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetTinTucMoi">
+      <Parameter Name="top" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sprocCategoriesSingleItem">
+      <Parameter Name="MemID" Mode="In" Type="Int64" />
+      <Parameter Name="name" Mode="In" Type="String" />
+      <Parameter Name="url" Mode="In" Type="String" />
+      <Parameter Name="oder" Mode="In" Type="Int32" />
+      <Parameter Name="parent" Mode="In" Type="Int32" />
+      <Parameter Name="type" Mode="In" Type="Int32" />
+      <Parameter Name="MemIDOUT" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sprocProductSingleItem">
+      <Parameter Name="MemID" Mode="In" Type="Int64" />
+      <Parameter Name="product_id" Mode="In" Type="Int64" />
+      <Parameter Name="product_name" Mode="In" Type="String" />
+      <Parameter Name="categories" Mode="In" Type="Int32" />
+      <Parameter Name="price_import" Mode="In" Type="Decimal" />
+      <Parameter Name="price_export" Mode="In" Type="Decimal" />
+      <Parameter Name="wholesale_price" Mode="In" Type="Decimal" />
+      <Parameter Name="price_percent" Mode="In" Type="Int32" />
+      <Parameter Name="quantity_import" Mode="In" Type="Int32" />
+      <Parameter Name="quantity_export" Mode="In" Type="Int32" />
+      <Parameter Name="MemIDOUT" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="TimSanPham">
+      <Parameter Name="page" Mode="In" Type="Int32" />
+      <Parameter Name="top" Mode="In" Type="Int32" />
+      <Parameter Name="id" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="TimTinTuc">
+      <Parameter Name="page" Mode="In" Type="Int32" />
+      <Parameter Name="top" Mode="In" Type="Int32" />
+      <Parameter Name="id" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="GetProductHot_Result">
+    <Property Type="Int64" Name="product_id" Nullable="false" />
+    <Property Type="String" Name="product_name" Nullable="true" />
+    <Property Type="String" Name="image_url" Nullable="true" />
+    <Property Type="Decimal" Name="price_import" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="price_export" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="Int32" Name="price_percent" Nullable="true" />
+    <Property Type="Decimal" Name="price" Nullable="true" Precision="36" Scale="6" />
+    <Property Type="Int32" Name="quantity" Nullable="true" />
+    <Property Type="Int32" Name="quantity_import" Nullable="true" />
+    <Property Type="Int32" Name="quantity_export" Nullable="true" />
+    <Property Type="String" Name="decriptions" Nullable="true" MaxLength="Max" />
+    <Property Type="Int32" Name="madein" Nullable="true" />
+    <Property Type="Int64" Name="userid" Nullable="true" />
+    <Property Type="DateTime" Name="expiry_date" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="promotion" Nullable="true" />
+    <Property Type="DateTime" Name="promotion_startdate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="promotion_enddate" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="home_show" Nullable="true" />
+    <Property Type="Int32" Name="product_order" Nullable="true" />
+    <Property Type="Int64" Name="views" Nullable="true" />
+    <Property Type="Int32" Name="enable" Nullable="true" />
+    <Property Type="Int32" Name="categories" Nullable="true" />
+    <Property Type="Decimal" Name="wholesale_price" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="DateTime" Name="create_date" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="GetProductNew_Result">
+    <Property Type="Int64" Name="product_id" Nullable="false" />
+    <Property Type="String" Name="product_name" Nullable="true" />
+    <Property Type="String" Name="image_url" Nullable="true" />
+    <Property Type="Decimal" Name="price_import" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="price_export" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="Int32" Name="price_percent" Nullable="true" />
+    <Property Type="Decimal" Name="price" Nullable="true" Precision="36" Scale="6" />
+    <Property Type="Int32" Name="quantity" Nullable="true" />
+    <Property Type="Int32" Name="quantity_import" Nullable="true" />
+    <Property Type="Int32" Name="quantity_export" Nullable="true" />
+    <Property Type="String" Name="decriptions" Nullable="true" MaxLength="Max" />
+    <Property Type="Int32" Name="madein" Nullable="true" />
+    <Property Type="Int64" Name="userid" Nullable="true" />
+    <Property Type="DateTime" Name="expiry_date" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="promotion" Nullable="true" />
+    <Property Type="DateTime" Name="promotion_startdate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="promotion_enddate" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="home_show" Nullable="true" />
+    <Property Type="Int32" Name="product_order" Nullable="true" />
+    <Property Type="Int64" Name="views" Nullable="true" />
+    <Property Type="Int32" Name="enable" Nullable="true" />
+    <Property Type="Int32" Name="categories" Nullable="true" />
+    <Property Type="Decimal" Name="wholesale_price" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="DateTime" Name="create_date" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="GetSanphamHot_Result">
+    <Property Type="Int64" Name="product_id" Nullable="false" />
+    <Property Type="String" Name="product_name" Nullable="true" />
+    <Property Type="String" Name="image_url" Nullable="true" />
+    <Property Type="Decimal" Name="price_import" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="price_export" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="Int32" Name="price_percent" Nullable="true" />
+    <Property Type="Decimal" Name="price" Nullable="true" Precision="36" Scale="6" />
+    <Property Type="Int32" Name="quantity" Nullable="true" />
+    <Property Type="Int32" Name="quantity_import" Nullable="true" />
+    <Property Type="Int32" Name="quantity_export" Nullable="true" />
+    <Property Type="String" Name="decriptions" Nullable="true" MaxLength="Max" />
+    <Property Type="Int32" Name="madein" Nullable="true" />
+    <Property Type="Int64" Name="userid" Nullable="true" />
+    <Property Type="DateTime" Name="expiry_date" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="promotion" Nullable="true" />
+    <Property Type="DateTime" Name="promotion_startdate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="promotion_enddate" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="home_show" Nullable="true" />
+    <Property Type="Int32" Name="product_order" Nullable="true" />
+    <Property Type="Int64" Name="views" Nullable="true" />
+    <Property Type="Int32" Name="enable" Nullable="true" />
+    <Property Type="Int32" Name="categories" Nullable="true" />
+    <Property Type="Decimal" Name="wholesale_price" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="DateTime" Name="create_date" Nullable="true" Precision="23" />
+  </ComplexType>
+</Schema>

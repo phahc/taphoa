@@ -1,0 +1,7 @@
+E:\[Work]\Private\TH_HANH\Shop\MSys.Interface\bin\Release\MSys.Interface.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Interface\bin\Release\MSys.Interface.pdb
+E:\[Work]\Private\TH_HANH\Shop\MSys.Interface\bin\Release\MSys.Model.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Interface\bin\Release\MSys.Model.pdb
+E:\[Work]\Private\TH_HANH\Shop\MSys.Interface\obj\Release\MSys.Interface.csprojResolveAssemblyReference.cache
+E:\[Work]\Private\TH_HANH\Shop\MSys.Interface\obj\Release\MSys.Interface.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Interface\obj\Release\MSys.Interface.pdb

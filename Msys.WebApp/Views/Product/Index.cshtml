@@ -1,0 +1,23 @@
+﻿@model MSys.WebApp.PageHelper<MSys.Model.Data.Product>
+@using MSys.WebApp;
+@using MSys.Core.Util;
+@{
+    ViewBag.Title = "ProductList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Script {
+    @*自画面用*@
+    <script src="@Url.Content("~/js/Product/Product.js")" type="text/javascript"></script>
+}
+<div id="content" class="container clearfix">
+    <section>
+        <div class="container">
+            <div class="row">
+                @Html.Partial("_LeftMenuPartial")
+                @Html.Partial("_ProductListPartial", Model)
+            </div>
+        </div>
+    </section>
+</div>
+

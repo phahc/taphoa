@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BooksModelStoreContainer" CdmEntityContainer="BooksEntities">
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="BooksModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="acc" ColumnName="acc" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admins">
+      <EntityTypeMapping TypeName="BooksModel.Admin">
+        <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="link" ColumnName="link" />
+          <ScalarProperty Name="oder" ColumnName="oder" />
+          <ScalarProperty Name="parent" ColumnName="parent" />
+          <ScalarProperty Name="icon" ColumnName="icon" />
+          <ScalarProperty Name="type" ColumnName="type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Banners">
+      <EntityTypeMapping TypeName="BooksModel.Banner">
+        <MappingFragment StoreEntitySet="Banner">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="img" ColumnName="img" />
+          <ScalarProperty Name="link" ColumnName="link" />
+          <ScalarProperty Name="oder" ColumnName="oder" />
+          <ScalarProperty Name="type" ColumnName="type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Branches">
+      <EntityTypeMapping TypeName="BooksModel.Branch">
+        <MappingFragment StoreEntitySet="Branch">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="branch1" ColumnName="branch1" />
+          <ScalarProperty Name="branch2" ColumnName="branch2" />
+          <ScalarProperty Name="branch3" ColumnName="branch3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="BooksModel.Category">
+        <MappingFragment StoreEntitySet="Categories">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="oder" ColumnName="oder" />
+          <ScalarProperty Name="parent" ColumnName="parent" />
+          <ScalarProperty Name="type" ColumnName="type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Comments">
+      <EntityTypeMapping TypeName="BooksModel.Comment">
+        <MappingFragment StoreEntitySet="Comments">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_product" ColumnName="id_product" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="data" ColumnName="data" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contacts">
+      <EntityTypeMapping TypeName="BooksModel.Contact">
+        <MappingFragment StoreEntitySet="Contact">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="sdt" ColumnName="sdt" />
+          <ScalarProperty Name="data" ColumnName="data" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="BooksModel.Customer">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="birthday" ColumnName="birthday" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="bank_name" ColumnName="bank_name" />
+          <ScalarProperty Name="bank_serial" ColumnName="bank_serial" />
+          <ScalarProperty Name="enable_account" ColumnName="enable_account" />
+          <ScalarProperty Name="update_time" ColumnName="update_time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Debts">
+      <EntityTypeMapping TypeName="BooksModel.Debt">
+        <MappingFragment StoreEntitySet="Debt">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="customer_id" ColumnName="customer_id" />
+          <ScalarProperty Name="createdate" ColumnName="createdate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DebtDetails">
+      <EntityTypeMapping TypeName="BooksModel.DebtDetail">
+        <MappingFragment StoreEntitySet="DebtDetail">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="debt_id" ColumnName="debt_id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="type" ColumnName="type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DefaultDatas">
+      <EntityTypeMapping TypeName="BooksModel.DefaultData">
+        <MappingFragment StoreEntitySet="DefaultData">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="value" ColumnName="value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Introductions">
+      <EntityTypeMapping TypeName="BooksModel.Introduction">
+        <MappingFragment StoreEntitySet="Introduction">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="summary" ColumnName="summary" />
+          <ScalarProperty Name="contents" ColumnName="contents" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MadeIns">
+      <EntityTypeMapping TypeName="BooksModel.MadeIn">
+        <MappingFragment StoreEntitySet="MadeIn">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="enable" ColumnName="enable" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Menus">
+      <EntityTypeMapping TypeName="BooksModel.Menu">
+        <MappingFragment StoreEntitySet="Menu">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="link" ColumnName="link" />
+          <ScalarProperty Name="oder" ColumnName="oder" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="News">
+      <EntityTypeMapping TypeName="BooksModel.News">
+        <MappingFragment StoreEntitySet="News">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="categories" ColumnName="categories" />
+          <ScalarProperty Name="img_url" ColumnName="img_url" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="summary" ColumnName="summary" />
+          <ScalarProperty Name="contents" ColumnName="contents" />
+          <ScalarProperty Name="view_count" ColumnName="view_count" />
+          <ScalarProperty Name="oder" ColumnName="oder" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="BooksModel.Order">
+        <MappingFragment StoreEntitySet="Order">
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="active" ColumnName="active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderDetails">
+      <EntityTypeMapping TypeName="BooksModel.OrderDetail">
+        <MappingFragment StoreEntitySet="OrderDetail">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_product" ColumnName="id_product" />
+          <ScalarProperty Name="id_order" ColumnName="id_order" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Posters">
+      <EntityTypeMapping TypeName="BooksModel.Poster">
+        <MappingFragment StoreEntitySet="Posters">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="image_url" ColumnName="image_url" />
+          <ScalarProperty Name="text" ColumnName="text" />
+          <ScalarProperty Name="company_name" ColumnName="company_name" />
+          <ScalarProperty Name="enable" ColumnName="enable" />
+          <ScalarProperty Name="position" ColumnName="position" />
+          <ScalarProperty Name="update_time" ColumnName="update_time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="BooksModel.Product">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+          <ScalarProperty Name="product_name" ColumnName="product_name" />
+          <ScalarProperty Name="image_url" ColumnName="image_url" />
+          <ScalarProperty Name="price_import" ColumnName="price_import" />
+          <ScalarProperty Name="price_export" ColumnName="price_export" />
+          <ScalarProperty Name="price_percent" ColumnName="price_percent" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="quantity_import" ColumnName="quantity_import" />
+          <ScalarProperty Name="quantity_export" ColumnName="quantity_export" />
+          <ScalarProperty Name="decriptions" ColumnName="decriptions" />
+          <ScalarProperty Name="madein" ColumnName="madein" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="expiry_date" ColumnName="expiry_date" />
+          <ScalarProperty Name="promotion" ColumnName="promotion" />
+          <ScalarProperty Name="promotion_startdate" ColumnName="promotion_startdate" />
+          <ScalarProperty Name="promotion_enddate" ColumnName="promotion_enddate" />
+          <ScalarProperty Name="home_show" ColumnName="home_show" />
+          <ScalarProperty Name="product_order" ColumnName="product_order" />
+          <ScalarProperty Name="views" ColumnName="views" />
+          <ScalarProperty Name="enable" ColumnName="enable" />
+          <ScalarProperty Name="categories" ColumnName="categories" />
+          <ScalarProperty Name="wholesale_price" ColumnName="wholesale_price" />
+          <ScalarProperty Name="create_date" ColumnName="create_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SlideShows">
+      <EntityTypeMapping TypeName="BooksModel.SlideShow">
+        <MappingFragment StoreEntitySet="SlideShow">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="img" ColumnName="img" />
+          <ScalarProperty Name="link" ColumnName="link" />
+          <ScalarProperty Name="oder" ColumnName="oder" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SpOnlines">
+      <EntityTypeMapping TypeName="BooksModel.SpOnline">
+        <MappingFragment StoreEntitySet="SpOnline">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="link" ColumnName="link" />
+          <ScalarProperty Name="type" ColumnName="type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="System_config">
+      <EntityTypeMapping TypeName="BooksModel.System_config">
+        <MappingFragment StoreEntitySet="System_config">
+          <ScalarProperty Name="key_name" ColumnName="key_name" />
+          <ScalarProperty Name="value1" ColumnName="value1" />
+          <ScalarProperty Name="value2" ColumnName="value2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Topics">
+      <EntityTypeMapping TypeName="BooksModel.Topic">
+        <MappingFragment StoreEntitySet="Topics">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="enable" ColumnName="enable" />
+          <ScalarProperty Name="showmain" ColumnName="showmain" />
+          <ScalarProperty Name="oder" ColumnName="oder" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetHoatDong" FunctionName="BooksModel.Store.GetHoatDong" />
+    <FunctionImportMapping FunctionImportName="GetHoatDongMoi" FunctionName="BooksModel.Store.GetHoatDongMoi" />
+    <FunctionImportMapping FunctionImportName="GetHoTroTrucTuyen" FunctionName="BooksModel.Store.GetHoTroTrucTuyen" />
+    <FunctionImportMapping FunctionImportName="GetProductHot" FunctionName="BooksModel.Store.GetProductHot">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BooksModel.GetProductHot_Result">
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+          <ScalarProperty Name="product_name" ColumnName="product_name" />
+          <ScalarProperty Name="image_url" ColumnName="image_url" />
+          <ScalarProperty Name="price_import" ColumnName="price_import" />
+          <ScalarProperty Name="price_export" ColumnName="price_export" />
+          <ScalarProperty Name="price_percent" ColumnName="price_percent" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="quantity_import" ColumnName="quantity_import" />
+          <ScalarProperty Name="quantity_export" ColumnName="quantity_export" />
+          <ScalarProperty Name="decriptions" ColumnName="decriptions" />
+          <ScalarProperty Name="madein" ColumnName="madein" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="expiry_date" ColumnName="expiry_date" />
+          <ScalarProperty Name="promotion" ColumnName="promotion" />
+          <ScalarProperty Name="promotion_startdate" ColumnName="promotion_startdate" />
+          <ScalarProperty Name="promotion_enddate" ColumnName="promotion_enddate" />
+          <ScalarProperty Name="home_show" ColumnName="home_show" />
+          <ScalarProperty Name="product_order" ColumnName="product_order" />
+          <ScalarProperty Name="views" ColumnName="views" />
+          <ScalarProperty Name="enable" ColumnName="enable" />
+          <ScalarProperty Name="categories" ColumnName="categories" />
+          <ScalarProperty Name="wholesale_price" ColumnName="wholesale_price" />
+          <ScalarProperty Name="create_date" ColumnName="create_date" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetProductNew" FunctionName="BooksModel.Store.GetProductNew">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BooksModel.GetProductNew_Result">
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+          <ScalarProperty Name="product_name" ColumnName="product_name" />
+          <ScalarProperty Name="image_url" ColumnName="image_url" />
+          <ScalarProperty Name="price_import" ColumnName="price_import" />
+          <ScalarProperty Name="price_export" ColumnName="price_export" />
+          <ScalarProperty Name="price_percent" ColumnName="price_percent" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="quantity_import" ColumnName="quantity_import" />
+          <ScalarProperty Name="quantity_export" ColumnName="quantity_export" />
+          <ScalarProperty Name="decriptions" ColumnName="decriptions" />
+          <ScalarProperty Name="madein" ColumnName="madein" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="expiry_date" ColumnName="expiry_date" />
+          <ScalarProperty Name="promotion" ColumnName="promotion" />
+          <ScalarProperty Name="promotion_startdate" ColumnName="promotion_startdate" />
+          <ScalarProperty Name="promotion_enddate" ColumnName="promotion_enddate" />
+          <ScalarProperty Name="home_show" ColumnName="home_show" />
+          <ScalarProperty Name="product_order" ColumnName="product_order" />
+          <ScalarProperty Name="views" ColumnName="views" />
+          <ScalarProperty Name="enable" ColumnName="enable" />
+          <ScalarProperty Name="categories" ColumnName="categories" />
+          <ScalarProperty Name="wholesale_price" ColumnName="wholesale_price" />
+          <ScalarProperty Name="create_date" ColumnName="create_date" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetSanPham" FunctionName="BooksModel.Store.GetSanPham" />
+    <FunctionImportMapping FunctionImportName="GetSanphamHot" FunctionName="BooksModel.Store.GetSanphamHot">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BooksModel.GetSanphamHot_Result">
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+          <ScalarProperty Name="product_name" ColumnName="product_name" />
+          <ScalarProperty Name="image_url" ColumnName="image_url" />
+          <ScalarProperty Name="price_import" ColumnName="price_import" />
+          <ScalarProperty Name="price_export" ColumnName="price_export" />
+          <ScalarProperty Name="price_percent" ColumnName="price_percent" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="quantity_import" ColumnName="quantity_import" />
+          <ScalarProperty Name="quantity_export" ColumnName="quantity_export" />
+          <ScalarProperty Name="decriptions" ColumnName="decriptions" />
+          <ScalarProperty Name="madein" ColumnName="madein" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="expiry_date" ColumnName="expiry_date" />
+          <ScalarProperty Name="promotion" ColumnName="promotion" />
+          <ScalarProperty Name="promotion_startdate" ColumnName="promotion_startdate" />
+          <ScalarProperty Name="promotion_enddate" ColumnName="promotion_enddate" />
+          <ScalarProperty Name="home_show" ColumnName="home_show" />
+          <ScalarProperty Name="product_order" ColumnName="product_order" />
+          <ScalarProperty Name="views" ColumnName="views" />
+          <ScalarProperty Name="enable" ColumnName="enable" />
+          <ScalarProperty Name="categories" ColumnName="categories" />
+          <ScalarProperty Name="wholesale_price" ColumnName="wholesale_price" />
+          <ScalarProperty Name="create_date" ColumnName="create_date" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetSanPhamMoi" FunctionName="BooksModel.Store.GetSanPhamMoi" />
+    <FunctionImportMapping FunctionImportName="GetTinTuc" FunctionName="BooksModel.Store.GetTinTuc" />
+    <FunctionImportMapping FunctionImportName="GetTinTucMoi" FunctionName="BooksModel.Store.GetTinTucMoi" />
+    <FunctionImportMapping FunctionImportName="sprocCategoriesSingleItem" FunctionName="BooksModel.Store.sprocCategoriesSingleItem" />
+    <FunctionImportMapping FunctionImportName="sprocProductSingleItem" FunctionName="BooksModel.Store.sprocProductSingleItem" />
+    <FunctionImportMapping FunctionImportName="TimSanPham" FunctionName="BooksModel.Store.TimSanPham" />
+    <FunctionImportMapping FunctionImportName="TimTinTuc" FunctionName="BooksModel.Store.TimTinTuc" />
+  </EntityContainerMapping>
+</Mapping>

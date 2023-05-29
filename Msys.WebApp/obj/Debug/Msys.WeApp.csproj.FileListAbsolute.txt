@@ -1,0 +1,278 @@
+E:\Do an\BooksStore\AspMvcAuth\bin\Antlr3.Runtime.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.Owin.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.Owin.Security.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.Practices.Unity.Configuration.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.Practices.Unity.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.Web.Infrastructure.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\Newtonsoft.Json.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\Owin.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\System.Web.Helpers.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\System.Web.Mvc.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\System.Web.Optimization.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\System.Web.Razor.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\System.Web.WebPages.Deployment.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\System.Web.WebPages.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\System.Web.WebPages.Razor.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\Unity.Mvc5.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\WebGrease.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.Owin.xml
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.Owin.Security.xml
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.Practices.Unity.xml
+E:\Do an\BooksStore\AspMvcAuth\bin\Microsoft.Practices.Unity.Configuration.xml
+E:\Do an\BooksStore\AspMvcAuth\bin\System.Web.Helpers.xml
+E:\Do an\BooksStore\AspMvcAuth\bin\System.Web.Mvc.xml
+E:\Do an\BooksStore\AspMvcAuth\bin\System.Web.Optimization.xml
+E:\Do an\BooksStore\AspMvcAuth\bin\System.Web.Razor.xml
+E:\Do an\BooksStore\AspMvcAuth\bin\System.Web.WebPages.xml
+E:\Do an\BooksStore\AspMvcAuth\bin\System.Web.WebPages.Deployment.xml
+E:\Do an\BooksStore\AspMvcAuth\bin\System.Web.WebPages.Razor.xml
+E:\Do an\BooksStore\AspMvcAuth\bin\Antlr3.Runtime.pdb
+E:\Do an\BooksStore\AspMvcAuth\bin\Newtonsoft.Json.xml
+E:\Do an\BooksStore\AspMvcAuth\obj\Debug\Msys.WeApp.csprojResolveAssemblyReference.cache
+E:\Do an\BooksStore\AspMvcAuth\bin\Msys.WebApp.dll.config
+E:\Do an\BooksStore\AspMvcAuth\bin\Msys.WebApp.dll
+E:\Do an\BooksStore\AspMvcAuth\bin\Msys.WebApp.pdb
+E:\Do an\BooksStore\AspMvcAuth\obj\Debug\Msys.WebApp.dll
+E:\Do an\BooksStore\AspMvcAuth\obj\Debug\Msys.WebApp.pdb
+E:\Do an\BooksStore\Msys.WebApp\bin\Msys.WebApp.dll.config
+E:\Do an\BooksStore\Msys.WebApp\bin\Msys.WebApp.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\Msys.WebApp.pdb
+E:\Do an\BooksStore\Msys.WebApp\bin\Antlr3.Runtime.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.Owin.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.Owin.Security.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.Practices.Unity.Configuration.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.Practices.Unity.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\Newtonsoft.Json.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\Owin.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\System.Web.Helpers.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\System.Web.Mvc.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\System.Web.Optimization.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\System.Web.Razor.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\System.Web.WebPages.Deployment.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\System.Web.WebPages.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\System.Web.WebPages.Razor.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\Unity.Mvc5.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\WebGrease.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.Owin.xml
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.Owin.Security.xml
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.Practices.Unity.xml
+E:\Do an\BooksStore\Msys.WebApp\bin\Microsoft.Practices.Unity.Configuration.xml
+E:\Do an\BooksStore\Msys.WebApp\bin\System.Web.Helpers.xml
+E:\Do an\BooksStore\Msys.WebApp\bin\System.Web.Mvc.xml
+E:\Do an\BooksStore\Msys.WebApp\bin\System.Web.Optimization.xml
+E:\Do an\BooksStore\Msys.WebApp\bin\System.Web.Razor.xml
+E:\Do an\BooksStore\Msys.WebApp\bin\System.Web.WebPages.xml
+E:\Do an\BooksStore\Msys.WebApp\bin\System.Web.WebPages.Deployment.xml
+E:\Do an\BooksStore\Msys.WebApp\bin\System.Web.WebPages.Razor.xml
+E:\Do an\BooksStore\Msys.WebApp\bin\Antlr3.Runtime.pdb
+E:\Do an\BooksStore\Msys.WebApp\bin\Newtonsoft.Json.xml
+E:\Do an\BooksStore\Msys.WebApp\obj\Debug\Msys.WebApp.dll
+E:\Do an\BooksStore\Msys.WebApp\obj\Debug\Msys.WebApp.pdb
+E:\Do an\BooksStore\Msys.WebApp\obj\Debug\Msys.WeApp.csprojResolveAssemblyReference.cache
+E:\Do an\BooksStore\Msys.WebApp\bin\MSys.Core.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\MSys.DataAccessLayer.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\MSys.Interface.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\MSys.Model.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\EntityFramework.dll
+E:\Do an\BooksStore\Msys.WebApp\bin\MSys.Core.pdb
+E:\Do an\BooksStore\Msys.WebApp\bin\MSys.DataAccessLayer.pdb
+E:\Do an\BooksStore\Msys.WebApp\bin\MSys.Interface.pdb
+E:\Do an\BooksStore\Msys.WebApp\bin\MSys.Model.pdb
+E:\Do an\BooksStore\Msys.WebApp\bin\EntityFramework.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Msys.WebApp.dll.config
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Msys.WebApp.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Msys.WebApp.pdb
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Antlr3.Runtime.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.AspNet.Identity.Core.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.Security.Cookies.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.Security.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.Security.OAuth.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Practices.Unity.Configuration.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Practices.Unity.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Web.Infrastructure.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\MSys.Core.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\MSys.DataAccessLayer.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\MSys.Interface.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\MSys.Model.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Newtonsoft.Json.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Owin.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.Helpers.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.Mvc.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.Optimization.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.Razor.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.WebPages.Deployment.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.WebPages.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.WebPages.Razor.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Unity.Mvc5.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\WebGrease.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\EntityFramework.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\MSys.Core.pdb
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\MSys.DataAccessLayer.pdb
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\MSys.Interface.pdb
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\MSys.Model.pdb
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.AspNet.Identity.Core.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.Security.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.Security.Cookies.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.Security.OAuth.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Practices.Unity.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Practices.Unity.Configuration.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.Helpers.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.Mvc.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.Optimization.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.Razor.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.WebPages.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.WebPages.Deployment.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.WebPages.Razor.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Antlr3.Runtime.pdb
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Newtonsoft.Json.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\bin\EntityFramework.xml
+F:\[Work]\Git_Books\Shop\Msys.WebApp\obj\Debug\Msys.WeApp.csprojResolveAssemblyReference.cache
+F:\[Work]\Git_Books\Shop\Msys.WebApp\obj\Debug\Msys.WebApp.dll
+F:\[Work]\Git_Books\Shop\Msys.WebApp\obj\Debug\Msys.WebApp.pdb
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Msys.WebApp.dll.config
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Msys.WebApp.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Msys.WebApp.pdb
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Antlr3.Runtime.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.AspNet.Identity.Core.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.Security.Cookies.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.Security.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.Security.OAuth.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Practices.Unity.Configuration.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Practices.Unity.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Web.Infrastructure.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\MSys.Core.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\MSys.DataAccessLayer.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\MSys.Interface.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\MSys.Model.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Newtonsoft.Json.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Owin.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.Helpers.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.Mvc.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.Optimization.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.Razor.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.WebPages.Deployment.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.WebPages.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.WebPages.Razor.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Unity.Mvc5.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\WebGrease.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\EntityFramework.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\MSys.Core.pdb
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\MSys.DataAccessLayer.pdb
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\MSys.DataAccessLayer.dll.config
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\MSys.Interface.pdb
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\MSys.Model.pdb
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\MSys.Model.dll.config
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.AspNet.Identity.Core.xml
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.xml
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.Security.xml
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.Security.Cookies.xml
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Owin.Security.OAuth.xml
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Practices.Unity.xml
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Microsoft.Practices.Unity.Configuration.xml
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.Helpers.xml
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.Mvc.xml
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.Optimization.xml
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.Razor.xml
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.WebPages.xml
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.WebPages.Deployment.xml
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\System.Web.WebPages.Razor.xml
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Antlr3.Runtime.pdb
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\Newtonsoft.Json.xml
+I:\[Work]\Git_Books\Shop\Msys.WebApp\bin\EntityFramework.xml
+I:\[Work]\Git_Books\Shop\Msys.WebApp\obj\Debug\Msys.WeApp.csproj.AssemblyReference.cache
+I:\[Work]\Git_Books\Shop\Msys.WebApp\obj\Debug\Msys.WeApp.csproj.CoreCompileInputs.cache
+I:\[Work]\Git_Books\Shop\Msys.WebApp\obj\Debug\Msys.WeApp.csproj.CopyComplete
+I:\[Work]\Git_Books\Shop\Msys.WebApp\obj\Debug\Msys.WebApp.dll
+I:\[Work]\Git_Books\Shop\Msys.WebApp\obj\Debug\Msys.WebApp.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Msys.WebApp.dll.config
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Msys.WebApp.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Msys.WebApp.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Antlr3.Runtime.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.Owin.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.Owin.Security.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.Practices.Unity.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\MSys.Core.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\MSys.DataAccessLayer.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\MSys.Interface.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\MSys.Model.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Newtonsoft.Json.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Owin.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\System.Web.Helpers.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\System.Web.Mvc.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\System.Web.Optimization.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\System.Web.Razor.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\System.Web.WebPages.Deployment.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\System.Web.WebPages.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\System.Web.WebPages.Razor.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Unity.Mvc5.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\WebGrease.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\EntityFramework.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\MSys.Core.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\MSys.DataAccessLayer.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\MSys.DataAccessLayer.dll.config
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\MSys.Interface.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\MSys.Model.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\MSys.Model.dll.config
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.Owin.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.Owin.Security.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.Practices.Unity.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\System.Web.Helpers.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\System.Web.Mvc.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\System.Web.Optimization.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\System.Web.Razor.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\System.Web.WebPages.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\System.Web.WebPages.Deployment.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\System.Web.WebPages.Razor.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Antlr3.Runtime.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\Newtonsoft.Json.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\bin\EntityFramework.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\obj\Debug\Msys.WeApp.csproj.AssemblyReference.cache
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\obj\Debug\Msys.WeApp.csproj.CoreCompileInputs.cache
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\obj\Debug\Msys.WeApp.csproj.CopyComplete
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\obj\Debug\Msys.WebApp.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\Msys.WebApp\obj\Debug\Msys.WebApp.pdb

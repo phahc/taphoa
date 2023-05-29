@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{131A5574-BFF3-4E10-B577-0953DC2D4C32}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MSys.Model</RootNamespace>
+    <AssemblyName>MSys.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Const\ConstType.cs" />
+    <Compile Include="Const\ResultStatus.cs" />
+    <Compile Include="Data\Account.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Admin.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Banner.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\BooksModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BooksModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\BooksModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\BooksModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BooksModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Branch.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Category.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Comment.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Contact.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Customer.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Debt.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\DebtDetail.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\DefaultData.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\GetProductHot_Result.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\GetProductNew_Result.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\GetSanphamHot_Result.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Introduction.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\MadeIn.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Menu.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\News.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Order.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\OrderDetail.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Poster.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Product.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SlideShow.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SpOnline.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\System_config.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Topic.cs">
+      <DependentUpon>BooksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MemberInfo.cs" />
+    <Compile Include="OrderDetailInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="Data\BooksModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>BooksModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Data\BooksModel.edmx.diagram">
+      <DependentUpon>BooksModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\BooksModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BooksModel.edmx</DependentUpon>
+      <LastGenOutput>BooksModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Data\BooksModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BooksModel.edmx</DependentUpon>
+      <LastGenOutput>BooksModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

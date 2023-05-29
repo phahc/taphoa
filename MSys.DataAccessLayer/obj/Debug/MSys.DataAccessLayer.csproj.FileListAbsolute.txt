@@ -1,0 +1,261 @@
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.pdb
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\MSys.Core.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\MSys.Interface.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\MSys.Model.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.Unity.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\FP.Practices.EnterpriseLibrary.FPData.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.Tags.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\Microsoft.Data.Edm.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\Microsoft.Data.Services.Client.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\Microsoft.Data.OData.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\Newtonsoft.Json.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\MSys.Core.pdb
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\MSys.Interface.pdb
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\MSys.Model.pdb
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.dll
+E:\[Work]\Private\spMarket\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.pdb
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.pdb
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Core.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Interface.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Model.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.Unity.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\FP.Practices.EnterpriseLibrary.FPData.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.Tags.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Data.Edm.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Data.Services.Client.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Data.OData.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\Newtonsoft.Json.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Core.pdb
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Interface.pdb
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Model.pdb
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.dll
+E:\[Work]\Private\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.pdb
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.pdb
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Core.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Interface.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Model.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\FP.Practices.EnterpriseLibrary.FPData.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.Unity.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.Tags.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Data.Edm.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Data.Services.Client.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Data.OData.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Core.pdb
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Interface.pdb
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Model.pdb
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.csprojResolveAssemblyReference.cache
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.dll
+F:\Soft\shopHanh\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.pdb
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.pdb
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Core.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Interface.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Model.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.Unity.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\FP.Practices.EnterpriseLibrary.FPData.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.Tags.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Data.Edm.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Data.Services.Client.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Data.OData.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\Newtonsoft.Json.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Core.pdb
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Interface.pdb
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Model.pdb
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.pdb
+E:\[Work]\Private\TH_HANH\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.dll.config
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.pdb
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\Dapper.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Core.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Interface.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Model.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\FP.Practices.EnterpriseLibrary.FPData.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.Unity.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.Tags.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Data.Edm.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Data.Services.Client.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Data.OData.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Core.pdb
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Interface.pdb
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Model.pdb
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\Dapper.xml
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.xml
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.csprojResolveAssemblyReference.cache
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.dll
+F:\[Work]\Do an Dieu\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.pdb
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.dll.config
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.pdb
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\Dapper.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Core.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Interface.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Model.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\FP.Practices.EnterpriseLibrary.FPData.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.Unity.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.Tags.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Data.Edm.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Data.Services.Client.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.Data.OData.dll
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Core.pdb
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Interface.pdb
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Model.pdb
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\Dapper.xml
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.xml
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+F:\Books\Shop\MSys.DataAccessLayer\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+F:\Books\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.csprojResolveAssemblyReference.cache
+F:\Books\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.dll
+F:\Books\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.pdb
+E:\Do an\BooksStore\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.dll.config
+E:\Do an\BooksStore\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.dll
+E:\Do an\BooksStore\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.pdb
+E:\Do an\BooksStore\MSys.DataAccessLayer\bin\Debug\Dapper.dll
+E:\Do an\BooksStore\MSys.DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\Do an\BooksStore\MSys.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Do an\BooksStore\MSys.DataAccessLayer\bin\Debug\MSys.Core.dll
+E:\Do an\BooksStore\MSys.DataAccessLayer\bin\Debug\MSys.Interface.dll
+E:\Do an\BooksStore\MSys.DataAccessLayer\bin\Debug\MSys.Model.dll
+E:\Do an\BooksStore\MSys.DataAccessLayer\bin\Debug\MSys.Core.pdb
+E:\Do an\BooksStore\MSys.DataAccessLayer\bin\Debug\MSys.Interface.pdb
+E:\Do an\BooksStore\MSys.DataAccessLayer\bin\Debug\MSys.Model.pdb
+E:\Do an\BooksStore\MSys.DataAccessLayer\bin\Debug\Dapper.xml
+E:\Do an\BooksStore\MSys.DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\Do an\BooksStore\MSys.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Do an\BooksStore\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\Do an\BooksStore\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.dll
+E:\Do an\BooksStore\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.pdb
+F:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.dll.config
+F:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.dll
+F:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.pdb
+F:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\Dapper.dll
+F:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.dll
+F:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+F:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Core.dll
+F:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Interface.dll
+F:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Model.dll
+F:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Core.pdb
+F:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Interface.pdb
+F:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Model.pdb
+F:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\Dapper.xml
+F:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.xml
+F:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+F:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.csprojResolveAssemblyReference.cache
+F:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.dll
+F:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.pdb
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.dll.config
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.dll
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.pdb
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\Dapper.dll
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.dll
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Core.dll
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Interface.dll
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Model.dll
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Core.pdb
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Interface.pdb
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Model.pdb
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Model.dll.config
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\Dapper.xml
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.xml
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.csproj.AssemblyReference.cache
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.csproj.CoreCompileInputs.cache
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.csproj.CopyComplete
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.dll
+I:\[Work]\Git_Books\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.dll.config
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\bin\Debug\MSys.DataAccessLayer.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\bin\Debug\Dapper.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Core.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Interface.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Model.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Core.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Interface.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Model.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\bin\Debug\MSys.Model.dll.config
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\bin\Debug\Dapper.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.csproj.AssemblyReference.cache
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.csproj.CopyComplete
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.DataAccessLayer\obj\Debug\MSys.DataAccessLayer.pdb

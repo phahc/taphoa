@@ -1,0 +1,211 @@
+F:\Soft\Source\CMN.Core\bin\Debug\MSys.Core.dll
+F:\Soft\Source\CMN.Core\bin\Debug\MSys.Core.pdb
+F:\Soft\Source\CMN.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPData.dll
+F:\Soft\Source\CMN.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.dll
+F:\Soft\Source\CMN.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Soft\Source\CMN.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Soft\Source\CMN.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\Soft\Source\CMN.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\Soft\Source\CMN.Core\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\Soft\Source\CMN.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\Soft\Source\CMN.Core\bin\Debug\Microsoft.Practices.Unity.dll
+F:\Soft\Source\CMN.Core\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+F:\Soft\Source\CMN.Core\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+F:\Soft\Source\CMN.Core\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+F:\Soft\Source\CMN.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.Tags.dll
+F:\Soft\Source\CMN.Core\bin\Debug\Microsoft.Data.Edm.dll
+F:\Soft\Source\CMN.Core\bin\Debug\Microsoft.Data.Services.Client.dll
+F:\Soft\Source\CMN.Core\bin\Debug\Microsoft.Data.OData.dll
+F:\Soft\Source\CMN.Core\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+F:\Soft\Source\CMN.Core\obj\Debug\MSys.Core.dll
+F:\Soft\Source\CMN.Core\obj\Debug\MSys.Core.pdb
+F:\Soft\Source\MSys.Core\bin\Debug\MSys.Core.dll
+F:\Soft\Source\MSys.Core\bin\Debug\MSys.Core.pdb
+F:\Soft\Source\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPData.dll
+F:\Soft\Source\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.dll
+F:\Soft\Source\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Soft\Source\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Soft\Source\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\Soft\Source\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\Soft\Source\MSys.Core\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\Soft\Source\MSys.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\Soft\Source\MSys.Core\bin\Debug\Microsoft.Practices.Unity.dll
+F:\Soft\Source\MSys.Core\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+F:\Soft\Source\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+F:\Soft\Source\MSys.Core\bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll
+F:\Soft\Source\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+F:\Soft\Source\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.Tags.dll
+F:\Soft\Source\MSys.Core\bin\Debug\WindowsAzureTelemetryEvents.dll
+F:\Soft\Source\MSys.Core\bin\Debug\Microsoft.Data.Edm.dll
+F:\Soft\Source\MSys.Core\bin\Debug\Microsoft.Data.Services.Client.dll
+F:\Soft\Source\MSys.Core\bin\Debug\Microsoft.Data.OData.dll
+F:\Soft\Source\MSys.Core\bin\Debug\WindowsAzureEventSource.dll
+F:\Soft\Source\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+F:\Soft\Source\MSys.Core\obj\Debug\MSys.Core.csprojResolveAssemblyReference.cache
+F:\Soft\Source\MSys.Core\obj\Debug\MSys.Core.dll
+F:\Soft\Source\MSys.Core\obj\Debug\MSys.Core.pdb
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\MSys.Core.dll
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\MSys.Core.pdb
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPData.dll
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.dll
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\Microsoft.Practices.Unity.dll
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.Tags.dll
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\Microsoft.Data.Edm.dll
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\Microsoft.Data.Services.Client.dll
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\Microsoft.Data.OData.dll
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\Newtonsoft.Json.dll
+E:\[Work]\Private\spMarket\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+E:\[Work]\Private\spMarket\MSys.Core\obj\Debug\MSys.Core.dll
+E:\[Work]\Private\spMarket\MSys.Core\obj\Debug\MSys.Core.pdb
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\MSys.Core.dll
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\MSys.Core.pdb
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPData.dll
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.dll
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\Microsoft.Practices.Unity.dll
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.Tags.dll
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\Microsoft.Data.Edm.dll
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\Microsoft.Data.Services.Client.dll
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\Microsoft.Data.OData.dll
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\Newtonsoft.Json.dll
+E:\[Work]\Private\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+E:\[Work]\Private\Shop\MSys.Core\obj\Debug\MSys.Core.dll
+E:\[Work]\Private\Shop\MSys.Core\obj\Debug\MSys.Core.pdb
+E:\[Work]\Private\Shop\MSys.Core\obj\Debug\MSys.Core.csprojResolveAssemblyReference.cache
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\MSys.Core.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\MSys.Core.pdb
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPData.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\Microsoft.Practices.Unity.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.Tags.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\WindowsAzureTelemetryEvents.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\Microsoft.Data.Edm.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\Microsoft.Data.Services.Client.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\Microsoft.Data.OData.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\WindowsAzureEventSource.dll
+F:\Soft\shopHanh\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+F:\Soft\shopHanh\Shop\MSys.Core\obj\Debug\MSys.Core.csprojResolveAssemblyReference.cache
+F:\Soft\shopHanh\Shop\MSys.Core\obj\Debug\MSys.Core.dll
+F:\Soft\shopHanh\Shop\MSys.Core\obj\Debug\MSys.Core.pdb
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\MSys.Core.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\MSys.Core.pdb
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPData.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\Microsoft.Practices.Unity.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.Tags.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\Microsoft.Data.Edm.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\Microsoft.Data.Services.Client.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\Microsoft.Data.OData.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\Newtonsoft.Json.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\obj\Debug\MSys.Core.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\obj\Debug\MSys.Core.pdb
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\obj\Debug\MSys.Core.csprojResolveAssemblyReference.cache
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\WindowsAzureTelemetryEvents.dll
+E:\[Work]\Private\TH_HANH\Shop\MSys.Core\bin\Debug\WindowsAzureEventSource.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\MSys.Core.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\MSys.Core.pdb
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPData.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\Microsoft.Practices.Unity.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.Tags.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\WindowsAzureTelemetryEvents.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\Microsoft.Data.Edm.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\Microsoft.Data.Services.Client.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\Microsoft.Data.OData.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\WindowsAzureEventSource.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+F:\[Work]\Do an Dieu\Shop\MSys.Core\obj\Debug\MSys.Core.dll
+F:\[Work]\Do an Dieu\Shop\MSys.Core\obj\Debug\MSys.Core.pdb
+F:\[Work]\Do an Dieu\Shop\MSys.Core\obj\Debug\MSys.Core.csprojResolveAssemblyReference.cache
+F:\Books\Shop\MSys.Core\bin\Debug\MSys.Core.dll
+F:\Books\Shop\MSys.Core\bin\Debug\MSys.Core.pdb
+F:\Books\Shop\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPData.dll
+F:\Books\Shop\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.dll
+F:\Books\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Books\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Books\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\Books\Shop\MSys.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\Books\Shop\MSys.Core\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\Books\Shop\MSys.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\Books\Shop\MSys.Core\bin\Debug\Microsoft.Practices.Unity.dll
+F:\Books\Shop\MSys.Core\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+F:\Books\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+F:\Books\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll
+F:\Books\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+F:\Books\Shop\MSys.Core\bin\Debug\FP.Practices.EnterpriseLibrary.FPDataMapper.Tags.dll
+F:\Books\Shop\MSys.Core\bin\Debug\WindowsAzureTelemetryEvents.dll
+F:\Books\Shop\MSys.Core\bin\Debug\Microsoft.Data.Edm.dll
+F:\Books\Shop\MSys.Core\bin\Debug\Microsoft.Data.Services.Client.dll
+F:\Books\Shop\MSys.Core\bin\Debug\Microsoft.Data.OData.dll
+F:\Books\Shop\MSys.Core\bin\Debug\WindowsAzureEventSource.dll
+F:\Books\Shop\MSys.Core\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+F:\Books\Shop\MSys.Core\obj\Debug\MSys.Core.dll
+F:\Books\Shop\MSys.Core\obj\Debug\MSys.Core.pdb
+E:\Do an\BooksStore\MSys.Core\bin\Debug\MSys.Core.dll
+E:\Do an\BooksStore\MSys.Core\bin\Debug\MSys.Core.pdb
+E:\Do an\BooksStore\MSys.Core\obj\Debug\MSys.Core.dll
+E:\Do an\BooksStore\MSys.Core\obj\Debug\MSys.Core.pdb
+F:\[Work]\Git_Books\Shop\MSys.Core\bin\Debug\MSys.Core.dll
+F:\[Work]\Git_Books\Shop\MSys.Core\bin\Debug\MSys.Core.pdb
+F:\[Work]\Git_Books\Shop\MSys.Core\obj\Debug\MSys.Core.csprojResolveAssemblyReference.cache
+F:\[Work]\Git_Books\Shop\MSys.Core\obj\Debug\MSys.Core.dll
+F:\[Work]\Git_Books\Shop\MSys.Core\obj\Debug\MSys.Core.pdb
+I:\[Work]\Git_Books\Shop\MSys.Core\bin\Debug\MSys.Core.dll
+I:\[Work]\Git_Books\Shop\MSys.Core\bin\Debug\MSys.Core.pdb
+I:\[Work]\Git_Books\Shop\MSys.Core\obj\Debug\MSys.Core.csproj.CoreCompileInputs.cache
+I:\[Work]\Git_Books\Shop\MSys.Core\obj\Debug\MSys.Core.dll
+I:\[Work]\Git_Books\Shop\MSys.Core\obj\Debug\MSys.Core.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Core\bin\Debug\MSys.Core.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Core\bin\Debug\MSys.Core.pdb
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Core\obj\Debug\MSys.Core.csproj.AssemblyReference.cache
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Core\obj\Debug\MSys.Core.csproj.CoreCompileInputs.cache
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Core\obj\Debug\MSys.Core.dll
+D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Core\obj\Debug\MSys.Core.pdb

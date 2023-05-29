@@ -1,0 +1,5 @@
+D:\Project_Visual\git_kinko\WebDetail\CMN.Model\bin\Debug\CMN.Model.dll
+D:\Project_Visual\git_kinko\WebDetail\CMN.Model\bin\Debug\CMN.Model.pdb
+D:\Project_Visual\git_kinko\WebDetail\CMN.Model\obj\Debug\CMN.Model.dll
+D:\Project_Visual\git_kinko\WebDetail\CMN.Model\obj\Debug\CMN.Model.pdb
+D:\Project_Visual\git_kinko\WebDetail\CMN.Model\obj\Debug\CMN.Model.csprojResolveAssemblyReference.cache
