@@ -27,15 +27,18 @@ namespace Msys.WebApp.Controllers
         {
             var detailModel = new MyCartInfo();
             var userInfo = this._accountServices.getCustomerByUserName(User.Identity.Name);
-            var service = this._orderService;
-            var order = service.GetActiveOrder(userInfo.userid);
-            if (order != null)
+            if(userInfo != null)
             {
-                detailModel.DetailLst = service.GetOrderDetail(order.id);
-                detailModel.userNm = userInfo.fullname;
-                detailModel.userAddress = userInfo.address;
-                detailModel.userEmail = userInfo.email;
-                detailModel.userPhone = userInfo.phone;
+                var service = this._orderService;
+                var order = service.GetActiveOrder(userInfo.userid);
+                if (order != null)
+                {
+                    detailModel.DetailLst = service.GetOrderDetail(order.id);
+                    detailModel.userNm = userInfo.fullname;
+                    detailModel.userAddress = userInfo.address;
+                    detailModel.userEmail = userInfo.email;
+                    detailModel.userPhone = userInfo.phone;
+                }
             }
             ViewBag.tax = ConfigurationManager.AppSettings["tax"];
             return View(detailModel);

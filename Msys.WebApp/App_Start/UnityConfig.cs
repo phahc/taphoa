@@ -15,11 +15,6 @@ namespace AspMvcAuth
         public static void RegisterComponents()
         {
 			var container = new UnityContainer();
-            
-            // register all your components with the container here
-            // it is NOT necessary to register your controllers
-            
-            // e.g. container.RegisterType<ITestService, TestService>();
             container.RegisterType<IAuthenticationManager>(new InjectionFactory(o => HttpContext.Current.GetOwinContext().Authentication));
             container.RegisterType<IAccount, AccountDal>();
             container.RegisterType<IOrder, OrderDal>();

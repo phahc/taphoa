@@ -41,12 +41,7 @@ namespace MSys.DataAccessLayer
             return _dataContext.Orders.Where(odr => odr.active == 1 && odr.status == 0 && odr.userid == userid).FirstOrDefault();
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="model">テーブルモデル</param>
-        /// <returns></returns>
-        /// <remarks></remarks>
+
         public OrderDetail GetExistDetail(OrderDetail orderDetail)
         {
             //IMapperManager mapper = ServiceLocator.Resolve<IMapperManager>();

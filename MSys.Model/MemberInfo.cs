@@ -1,11 +1,7 @@
 using System;
-using System.Collections.Generic;
 
 namespace MSys.Model
 {
-    /// <summary>
-    /// MemberInfo: ログイン情報格納クラス
-    /// </summary>
     [Serializable()]
     public class MemberInfo
     {

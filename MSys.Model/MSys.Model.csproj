@@ -53,7 +53,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Const\ConstType.cs" />
-    <Compile Include="Const\ResultStatus.cs" />
     <Compile Include="Data\Account.cs">
       <DependentUpon>BooksModel.tt</DependentUpon>
     </Compile>

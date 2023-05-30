@@ -19,7 +19,6 @@ namespace Msys.WebApp.Controllers
 
         // GET: Contact
         [HttpGet]
-        [AuthorizedSessionFilter]
         public ActionResult Contact()
         {
             return View();
