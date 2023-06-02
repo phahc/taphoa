@@ -93,7 +93,6 @@ D:\Private\e-learning\Thiet ke phan mem\canh\tap-hoa\taphoa\MSys.Model\bin\Debug
 D:\Private\e-learning\Thiet ke phan mem\canh\tap-hoa\taphoa\MSys.Model\bin\Debug\EntityFramework.SqlServer.dll
 D:\Private\e-learning\Thiet ke phan mem\canh\tap-hoa\taphoa\MSys.Model\bin\Debug\EntityFramework.xml
 D:\Private\e-learning\Thiet ke phan mem\canh\tap-hoa\taphoa\MSys.Model\bin\Debug\EntityFramework.SqlServer.xml
-D:\Private\e-learning\Thiet ke phan mem\canh\tap-hoa\taphoa\MSys.Model\obj\Debug\MSys.Model.csproj.AssemblyReference.cache
 D:\Private\e-learning\Thiet ke phan mem\canh\tap-hoa\taphoa\MSys.Model\obj\Debug\MSys.Model.csproj.CoreCompileInputs.cache
 D:\Private\e-learning\Thiet ke phan mem\canh\tap-hoa\taphoa\MSys.Model\obj\Debug\MSys.Model.csproj.CopyComplete
 D:\Private\e-learning\Thiet ke phan mem\canh\tap-hoa\taphoa\MSys.Model\obj\Debug\MSys.Model.dll

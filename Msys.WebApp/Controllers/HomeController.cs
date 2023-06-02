@@ -132,9 +132,8 @@ namespace MSys.WebApp.Controllers
         [HttpPost]
         public bool UpdateOrderDetail(FormCollection collection)
         {
-            /* Define all posted data coming from the view. */
-            string orderid = collection["data[orderid]"]; /* Keyword provided on our search box */
-            string productid = collection["data[productid]"]; /* Keyword provided on our search box */
+            string orderid = collection["data[orderid]"]; 
+            string productid = collection["data[productid]"];
             int quantity = (collection["data[quantity]"] != null) ? Convert.ToInt32(collection["data[quantity]"]) : 0; /* Keyword provided on our search box */
             OrderDetailInfo orderDetail = new OrderDetailInfo()
             {
@@ -151,11 +150,8 @@ namespace MSys.WebApp.Controllers
         public string RegisterOrder(FormCollection collection)
         {
             var service = this._orderService;
-            /* Setup default variables that we are going to populate later */
             bool ret = true;
 
-
-            // Get max code order
             string maxCode = service.CreateMaxOrderCode();
             if (string.IsNullOrEmpty(maxCode))
                 maxCode = string.Format("{0:00000000000000000}", 1);
@@ -196,48 +192,38 @@ namespace MSys.WebApp.Controllers
             return json;
         }
 
-
+        // javascript sửa dụng ajax gọi tới hàm này
         [HttpPost]
         public string Search(FormCollection collection)
         {
             var service = this._productService;
-            /* Setup default variables that we are going to populate later */
             var pag_content = "";
             var pag_navigation = "";
 
-            /* Define all posted data coming from the view. */
-            string search = collection["data[search]"]; /* Keyword provided on our search box */
+            string search = collection["data[search]"]; 
             var lstProduct = service.GetProductsInfo();
 
-            /* Let's build the query using available data that we received form the front-end via ajax */
             var all_items_query = lstProduct
-                .Where(x => Convert.ToDouble(x.product_id) != 0); /* Get only the products to display. */
+                .Where(x => Convert.ToDouble(x.product_id) != 0); 
 
-            /* Get total items in our database */
             var count_query = lstProduct
-                .Where(x => Convert.ToDouble(x.product_id) != 0); /* Get total products count. */
+                .Where(x => Convert.ToDouble(x.product_id) != 0); 
 
-            /* If there is a search keyword, we search through the database for possible matches*/
             if (!string.IsNullOrEmpty(search))
             {
-                /* The "Contains" method matches records using the LIKE %keyword% format */
                 all_items_query = lstProduct.Where(x =>
                     x.product_id.ToString().Contains(search) ||
                     x.product_name.ToLower().Contains(search.ToLower())
-                //x.decriptions.Contains(search)
                 );
                 count_query = lstProduct.Where(x =>
                     x.product_id.ToString().Contains(search) ||
                     x.product_name.ToLower().Contains(search.ToLower())
-                    //x.decriptions.Contains(search)
                 );
             }
 
-            /* We now fetch the data from our database */
             var all_items = all_items_query.ToList();
             int count = count_query.Count();
 
-            /* Loop through each item to create views */
             if (count > 0 && !string.IsNullOrEmpty(search))
             {
                 foreach (var item in all_items)
@@ -275,13 +261,10 @@ namespace MSys.WebApp.Controllers
                 pag_content = "";
             }
 
-            /* Lets put our variables in a dictionary */
             var response = new Dictionary<string, string> {
         { "content", pag_content },
         { "navigation", pag_navigation }
     };
-
-            /* Then we return the Dictionary in json format to our front-end */
             string json = new JavaScriptSerializer().Serialize(response);
             return json;
         }

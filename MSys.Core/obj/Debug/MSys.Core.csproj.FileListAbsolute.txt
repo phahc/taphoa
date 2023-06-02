@@ -211,7 +211,6 @@ D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Core\obj\Debug\MSys.Core.
 D:\Private\e-learning\Thiet ke phan mem\canh\Shop\MSys.Core\obj\Debug\MSys.Core.csproj.AssemblyReference.cache
 D:\Private\e-learning\Thiet ke phan mem\canh\tap-hoa\taphoa\MSys.Core\bin\Debug\MSys.Core.dll
 D:\Private\e-learning\Thiet ke phan mem\canh\tap-hoa\taphoa\MSys.Core\bin\Debug\MSys.Core.pdb
-D:\Private\e-learning\Thiet ke phan mem\canh\tap-hoa\taphoa\MSys.Core\obj\Debug\MSys.Core.csproj.AssemblyReference.cache
 D:\Private\e-learning\Thiet ke phan mem\canh\tap-hoa\taphoa\MSys.Core\obj\Debug\MSys.Core.csproj.CoreCompileInputs.cache
 D:\Private\e-learning\Thiet ke phan mem\canh\tap-hoa\taphoa\MSys.Core\obj\Debug\MSys.Core.dll
 D:\Private\e-learning\Thiet ke phan mem\canh\tap-hoa\taphoa\MSys.Core\obj\Debug\MSys.Core.pdb
